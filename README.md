@@ -1,2 +1,2 @@
-# readrz-website
-Github pages website for Readrz.com
+# readrz-blog
+Development blog of Readrz.com

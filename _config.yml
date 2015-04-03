@@ -1,0 +1,21 @@
+# Site settings
+title: Readrz Blog
+email: andrey@readrz.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is the Readrz.com development blog.
+  Feel free to get in touch is you want to discuss anything.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+url: "http://blog.readrz.com" # the base hostname & protocol for your site
+twitter_username: akuz_me
+github_username:  akuz
+
+# Permalinks
+permalink: pretty
+
+# Build settings
+markdown: kramdown
+
+# Pagination
+paginate: 5
