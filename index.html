@@ -16,7 +16,7 @@ layout: default
   {% if post.content contains '<!--more-->' %}
     {{ post.content | split:'<!--more-->' | first }}
     <p>
-      <a href="{{ post.url }}">
+      <a href="{{ post.url | prepend: site.baseurl }}">
         Read full article <i class="fa fa-angle-double-right"></i>
       </a>
     </p>
