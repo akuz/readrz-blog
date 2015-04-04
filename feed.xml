@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.readrz.com/readrz-blog/</link>
     <atom:link href="http://blog.readrz.com/readrz-blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Apr 2015 11:06:07 +0100</pubDate>
-    <lastBuildDate>Sat, 04 Apr 2015 11:06:07 +0100</lastBuildDate>
+    <pubDate>Sat, 04 Apr 2015 11:17:49 +0100</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2015 11:17:49 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -144,17 +144,35 @@ about the romance of a famous footballer:&lt;/p&gt;
     &lt;img srcset=&quot;/readrz-blog/generated/20120403/search_football-350by200-34a1e4.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
-&lt;p&gt;&lt;img src=&quot;/readrz-blog/img/20120403/search_football-300x201.png&quot; /&gt;&lt;/p&gt;
-
-&lt;!--more--&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;Search for “elections” within the World section:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/readrz-blog/img/20120403/search_elections-284x300.png&quot; /&gt;&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-599by632-2106e9.png&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-599by632-2106e9.png&quot; media=&quot;(min-width: 40em)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-599by632-2106e9.png&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-450by475-2106e9.png&quot; media=&quot;(min-width: 30em)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-525by300-2106e9.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-350by200-2106e9.png&quot; /&gt;
+    &lt;img srcset=&quot;/readrz-blog/generated/20120403/search_elections-350by200-2106e9.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+  &lt;/picture&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Search for “hedge fund” within the Fin Blogs section:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/readrz-blog/img/20120403/search_hedge_fund-284x300.png&quot; /&gt;&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-599by631-879cf1.png&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-599by631-879cf1.png&quot; media=&quot;(min-width: 40em)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-599by631-879cf1.png&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-450by474-879cf1.png&quot; media=&quot;(min-width: 30em)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-525by300-879cf1.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-350by200-879cf1.png&quot; /&gt;
+    &lt;img srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-350by200-879cf1.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+  &lt;/picture&gt;
+
 </description>
         <pubDate>Tue, 03 Apr 2012 13:00:00 +0100</pubDate>
         <link>http://blog.readrz.com/readrz-blog/2012/04/03/release-search-in-sections/</link>
