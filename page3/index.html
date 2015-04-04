@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Readrz Development Blog</title>
+  <meta name="description" content="This is the Readrz.com development blog. Feel free to get in touch is you want to discuss anything.
+">
+
+  <link rel="canonical" href="http://blog.readrz.com/readrz-blog/page3/">
+  <link rel="alternate" type="application/rss+xml" title="Readrz Development Blog" href="http://blog.readrz.com/readrz-blogfeed.xml" />
+
+  <link rel="stylesheet" href="/readrz-blog/css/main.css">
+  <link rel="stylesheet" href="/readrz-blog/lib/bootstrap/3.3.4/css/bootstrap-cerulean.min.css">
+  <link rel="stylesheet" href="/readrz-blog/lib/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="/readrz-blog/lib/jquery/jquery-2.1.3.min.js"></script>
+  <script src="/readrz-blog/lib/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="/readrz-blog/lib/picturefill/picturefill.min.js"></script>
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/readrz-blog/">
+        <i class="fa fa-server"></i> Readrz Development Blog
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav">
+
+        <li class=""><a href="/readrz-blog/">Home</a></li>
+
+        
+        
+          
+            
+          
+        
+          
+            
+              <li class=""><a href="/readrz-blog/about/">About</a></li>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+        <li><a href="http://www.readrz.com"><i class="fa fa-external-link-square"></i> Readrz.com</a></li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+
+    <div class="container">
+      <div class="page-header">
+  <h1>Home</h1>
+</div>
+
+
+<div style="margin-bottom: 5em">
+  <h2>
+    <a href="/readrz-blog/2012/06/29/sentiment-vs-price-intel-2011/">Sentiment vs Price: Intel 2011</a> <br />
+    <small>Jun 29, 2012</small>
+  </h2>
+
+  
+    <p>Here are preliminary results for sentiment analysis on Intel (INTC) in 2011. Each dot represents a news article. The horisontal axis shows time. The vertical axis shows news article sentiment. If you open the large picture (click on it), you will see there is some correlation between positive / negative sentiment and subsequent price changes.</p>
+
+<picture>
+    <source srcset="/readrz-blog/generated/20120629/intel_sentiment-700by455-6e6b7f.png" media="(min-width: 750px)" />
+    <source srcset="/readrz-blog/generated/20120629/intel_sentiment-450by292-6e6b7f.png" media="(min-width: 500px)" />
+    <source srcset="/readrz-blog/generated/20120629/intel_sentiment-280by182-6e6b7f.png" media="(min-width: 300px)" />
+    <source srcset="/readrz-blog/generated/20120629/intel_sentiment-200by130-6e6b7f.png" />
+    <img srcset="/readrz-blog/generated/20120629/intel_sentiment-200by130-6e6b7f.png" class="blog-full" itemprop="image" />
+  </picture>
+
+  
+
+</div>
+
+<div style="margin-bottom: 5em">
+  <h2>
+    <a href="/readrz-blog/2012/06/28/towards-sentiment-analysis/">Towards Sentiment Analysis</a> <br />
+    <small>Jun 28, 2012</small>
+  </h2>
+
+  
+    <p>I am beginning a new foray deeper into computational linguistics in the area of sentiment analysis. In this post I want to outline the main goals and the reasons behind them. Later I am planning to post updates on the progress.</p>
+
+<p><strong>Exploratory Search.</strong> We have been working for some time on exploratory search at Readrz. The goal was to allow people to explore a collection of texts. Overall, this is a very big topic. The texts can be explored along semantical dimensions, and along the time dimension if texts are timestamped. Semantical dimensions can be predefined categories, tag clouds, search queries, or more vaguely defined topics (more on this in next paragraph). When semantical dimensions are specified manually as categories/tags and then associated with documents by people working with them, exploratory search becomes a relatively easy task. We can implement filtering by the defined categories and by time. We can let people see related categories by inferring them from associations of documents with multiple categories. We can also easily compute the “activity” in different categories over time and present graphs to the users, and let them navigate through time. This have been implemented in many online systems that allow tagging documents, photos, etc.</p>
+
+
+    <p>
+      <a href="/readrz-blog/2012/06/28/towards-sentiment-analysis/">
+        Read full article <i class="fa fa-angle-double-right"></i>
+      </a>
+    </p>
+  
+
+</div>
+
+<div style="margin-bottom: 5em">
+  <h2>
+    <a href="/readrz-blog/2012/05/01/exploratory-search-lessons/">Exploratory Search: Lessons</a> <br />
+    <small>May 1, 2012</small>
+  </h2>
+
+  
+    <p>Several lessons learned from implementing exploratory search at Readrz (so far):</p>
+
+<ul>
+  <li>There is a need from a wide audience for exploratory tools</li>
+  <li>Starting point of exploration is important, and there can be two entry points:
+    <ul>
+      <li>Top-down: narrowing down the content based on suggested sections</li>
+      <li>Bottom-up: search for key words, and then having options to extend/shift results</li>
+    </ul>
+  </li>
+  <li>Search: users are not interested in seeing broad categories at the top of search results because they can bring a lot of “related” results which do not correspond to search query exactly. Instead they want to see the exact search results first, and only then some additional options to extend/shift the results.</li>
+</ul>
+
+  
+
+</div>
+
+<div style="margin-bottom: 5em">
+  <h2>
+    <a href="/readrz-blog/2012/04/03/release-search-in-sections/">Release: Search in Sections</a> <br />
+    <small>Apr 3, 2012</small>
+  </h2>
+
+  
+    <p>Today we have released a first version of search! At the moment, you 
+can only search within the currently selected section on the left. 
+We are working on cross-sectional global search, and it will be released 
+in the near future. Below are example of some searches…</p>
+
+<p>Search for “football” within the Celebrities section brings up 
+Daniel Redcliffe’s opinions about footballers plus another story 
+about the romance of a famous footballer:</p>
+
+<picture>
+    <source srcset="/readrz-blog/generated/20120403/search_football-700by469-34a1e4.png" media="(min-width: 750px)" />
+    <source srcset="/readrz-blog/generated/20120403/search_football-450by302-34a1e4.png" media="(min-width: 500px)" />
+    <source srcset="/readrz-blog/generated/20120403/search_football-280by188-34a1e4.png" media="(min-width: 300px)" />
+    <source srcset="/readrz-blog/generated/20120403/search_football-200by134-34a1e4.png" />
+    <img srcset="/readrz-blog/generated/20120403/search_football-200by134-34a1e4.png" class="blog-full" itemprop="image" />
+  </picture>
+
+<p><br />
+
+    <p>
+      <a href="/readrz-blog/2012/04/03/release-search-in-sections/">
+        Read full article <i class="fa fa-angle-double-right"></i>
+      </a>
+    </p>
+  
+
+</div>
+
+<div style="margin-bottom: 5em">
+  <h2>
+    <a href="/readrz-blog/2012/03/08/what-is-exploratory-search/">What is Exploratory Search?</a> <br />
+    <small>Mar 8, 2012</small>
+  </h2>
+
+  
+    <p>When I explain to people what are we working on, I try not to mention the term 
+“exploratory search” because almost no one has any idea about what it is. 
+I’ll try to collate some definitions and provide an example of a task 
+when the exploratory search is needed.</p>
+
+<h3 id="overview">Overview</h3>
+
+<p>One of the definitions I like was given in the recent paper from FXPAL 
+(Fuji Xerox Palo Alto Laboratory) titled 
+<a href="http://www.fxpal.com/publications/FXPAL-PR-10-573.pdf">Interactive 
+Information Seeking via Selective Application of Contextual Knowledge</a>:</p>
+
+<blockquote>Exploratory search is often characterized by an evolving information 
+need and the likelihood that the information sought is distributed across multiple 
+documents. Thus the goal of the search process is not to formulate the perfect 
+query or to find the ideal document, but to collect information through a variety 
+of means, and to combine the discovered information to achieve a coherent understanding 
+of some topic.</blockquote>
+
+<p>A good outline of this paper was 
+<a href="http://lifidea.wordpress.com/2011/09/22/fxpal-paper-on-exploratory-search/">posted by Jin Y. Kim</a>.</p>
+
+
+    <p>
+      <a href="/readrz-blog/2012/03/08/what-is-exploratory-search/">
+        Read full article <i class="fa fa-angle-double-right"></i>
+      </a>
+    </p>
+  
+
+</div>
+
+
+<nav>
+  <ul class="pager">
+    
+      <li class="previous"><a href="/readrz-blog/page4"><span aria-hidden="true"><i class="fa fa-angle-double-left"></i> Older</span></a></li>
+    
+
+    
+      
+        <li class="next"><a href="/readrz-blog/page2"><span aria-hidden="true">Newer <i class="fa fa-angle-double-right"></i></span></a></li>
+      
+    
+  </ul>
+</nav>
+
+
+    </div>
+
+    
+<hr />
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-4">
+      Contact email:<br />
+      <a href="mailto:andrey@readrz.com">andrey@readrz.com</a>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-4">
+        
+        <a href="https://github.com/akuz">
+          <i class="fa fa-github"></i>
+          <span class="username">akuz</span>
+        </a> <br />
+        
+        
+        <a href="https://twitter.com/akuz_me">
+          <i class="fa fa-twitter"></i>
+          <span class="username">akuz_me</span>
+        </a>
+        <br />
+        
+        <br />
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4">
+      <p>This is the Readrz.com development blog. Feel free to get in touch is you want to discuss anything.
+</p>
+      <p>
+        Subscribe
+        <a href="/readrz-blog/feed.xml">
+          via <i class="fa fa-rss"></i>
+          RSS
+        </a> 
+        or join <a href="http://eepurl.com/d48hj">mailing list</a>.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+
+</html>

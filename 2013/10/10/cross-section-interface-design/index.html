@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Cross-Section Interface Design</title>
+  <meta name="description" content="Readrz search engine uses several unique algorithms, which in combination provide a service that is not available anywhere else:">
+
+  <link rel="canonical" href="http://blog.readrz.com/readrz-blog/2013/10/10/cross-section-interface-design/">
+  <link rel="alternate" type="application/rss+xml" title="Readrz Development Blog" href="http://blog.readrz.com/readrz-blogfeed.xml" />
+
+  <link rel="stylesheet" href="/readrz-blog/css/main.css">
+  <link rel="stylesheet" href="/readrz-blog/lib/bootstrap/3.3.4/css/bootstrap-cerulean.min.css">
+  <link rel="stylesheet" href="/readrz-blog/lib/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="/readrz-blog/lib/jquery/jquery-2.1.3.min.js"></script>
+  <script src="/readrz-blog/lib/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="/readrz-blog/lib/picturefill/picturefill.min.js"></script>
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/readrz-blog/">
+        <i class="fa fa-server"></i> Readrz Development Blog
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav">
+
+        <li class=""><a href="/readrz-blog/">Home</a></li>
+
+        
+        
+          
+            
+          
+        
+          
+            
+              <li class=""><a href="/readrz-blog/about/">About</a></li>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+        <li><a href="http://www.readrz.com"><i class="fa fa-external-link-square"></i> Readrz.com</a></li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+
+    <div class="container">
+      <article>
+
+  <div class="page-header">
+    <h1>Cross-Section Interface Design<br /><small>Oct 10, 2013</small></h1>
+  </div>
+
+  <p>Readrz search engine uses several unique algorithms, which in combination provide a service that is not available anywhere else:</p>
+
+<ul>
+  <li>Automatic detection of article topics – and search by these topics</li>
+  <li>Summarization of multiple articles into a two-level tree</li>
+  <li>Cross-sectional topic analysis of results</li>
+</ul>
+
+<p>Cross-sectional topic analysis allows you to intersect two topics, and see the results that have both of them. It is the highest-level feature that is supported by all other lower-level functionality. It is the top of the pyramid of code, and it is the most useful feature – it is at the pinnacle of what Readrz can do.</p>
+
+<p>Now, cross-sectional analysis user interface… here we come to the dark area. Of course, you can imagine how that can work. First, you choose one section. Second, you choose another section. And voila, you are looking at the cross-section. You can already do cross-sectional analysis at the current website, which uses two different menus allowing you to choose first and second sections.</p>
+
+<p>Using two menus is not a good idea for cross-sectional user interface:</p>
+
+<ul>
+  <li>It looks like a usual user-interface that you see on all websites, so it doesn’t provide any indication that Readrz can do something that other search engines can’t do</li>
+  <li>There is no clear indication of a link between two menus – it is not obvious that the second one depends on selection in the first, and that they together produce a cross section of results</li>
+</ul>
+
+<p>That’s why we’ve been working on a completely new user interface for cross-sectional search.</p>
+
+<p>Recently, I have learnt about the <a href="http://d3js.org/">D3</a> javascript library, which can do amazing things (data-driven display of information for the web). After that we have spent a few days experimenting and working on the ideas for a new design.</p>
+
+<p>Here is how the home page will approximately look like (using <a href="http://bl.ocks.org/mbostock/5944371">Bilevel Partition Sunburst</a>):</p>
+
+<picture>
+    <source srcset="/readrz-blog/generated/20131010/cross-section-home-493by541-3e5429.png" media="(min-width: 750px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-home-450by494-3e5429.png" media="(min-width: 500px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-home-280by307-3e5429.png" media="(min-width: 300px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-home-200by219-3e5429.png" />
+    <img srcset="/readrz-blog/generated/20131010/cross-section-home-200by219-3e5429.png" class="blog-full" itemprop="image" />
+  </picture>
+
+<p><br /></p>
+
+<p>I am attaching some sketches that show how cross-sectional design will work (see below).</p>
+
+<p>I am working hard on implementing it right now…</p>
+
+<!--more-->
+
+<p>This is how the search results will look like:</p>
+
+<picture>
+    <source srcset="/readrz-blog/generated/20131010/cross-section-block-700by522-546c76.jpg" media="(min-width: 750px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-block-450by336-546c76.jpg" media="(min-width: 500px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-block-280by209-546c76.jpg" media="(min-width: 300px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-block-200by149-546c76.jpg" />
+    <img srcset="/readrz-blog/generated/20131010/cross-section-block-200by149-546c76.jpg" class="blog-full" itemprop="image" />
+  </picture>
+
+<p><br /></p>
+
+<p>Home page showing all news and available sections:</p>
+
+<picture>
+    <source srcset="/readrz-blog/generated/20131010/cross-section-page-1-700by938-e1a578.jpg" media="(min-width: 750px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-page-1-450by603-e1a578.jpg" media="(min-width: 500px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-page-1-280by375-e1a578.jpg" media="(min-width: 300px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-page-1-200by268-e1a578.jpg" />
+    <img srcset="/readrz-blog/generated/20131010/cross-section-page-1-200by268-e1a578.jpg" class="blog-full" itemprop="image" />
+  </picture>
+
+<p><br /></p>
+
+<p>User selects the “Business” section, and:</p>
+
+<ul>
+  <li>Sees all results from the “Business” section</li>
+  <li>Sees cross-sections available for intersecting with “Business”</li>
+</ul>
+
+<picture>
+    <source srcset="/readrz-blog/generated/20131010/cross-section-page-2-700by938-2a9f2f.jpg" media="(min-width: 750px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-page-2-450by603-2a9f2f.jpg" media="(min-width: 500px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-page-2-280by375-2a9f2f.jpg" media="(min-width: 300px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-page-2-200by268-2a9f2f.jpg" />
+    <img srcset="/readrz-blog/generated/20131010/cross-section-page-2-200by268-2a9f2f.jpg" class="blog-full" itemprop="image" />
+  </picture>
+
+<p><br /></p>
+
+<p>Use selects “Countries” cross-section (to intersect with previously selected “Business”):</p>
+
+<picture>
+    <source srcset="/readrz-blog/generated/20131010/cross-section-page-3-700by938-205814.jpg" media="(min-width: 750px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-page-3-450by603-205814.jpg" media="(min-width: 500px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-page-3-280by375-205814.jpg" media="(min-width: 300px)" />
+    <source srcset="/readrz-blog/generated/20131010/cross-section-page-3-200by268-205814.jpg" />
+    <img srcset="/readrz-blog/generated/20131010/cross-section-page-3-200by268-205814.jpg" class="blog-full" itemprop="image" />
+  </picture>
+
+<p><br /></p>
+
+
+</article>
+
+
+    </div>
+
+    
+<hr />
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-4">
+      Contact email:<br />
+      <a href="mailto:andrey@readrz.com">andrey@readrz.com</a>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-4">
+        
+        <a href="https://github.com/akuz">
+          <i class="fa fa-github"></i>
+          <span class="username">akuz</span>
+        </a> <br />
+        
+        
+        <a href="https://twitter.com/akuz_me">
+          <i class="fa fa-twitter"></i>
+          <span class="username">akuz_me</span>
+        </a>
+        <br />
+        
+        <br />
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4">
+      <p>This is the Readrz.com development blog. Feel free to get in touch is you want to discuss anything.
+</p>
+      <p>
+        Subscribe
+        <a href="/readrz-blog/feed.xml">
+          via <i class="fa fa-rss"></i>
+          RSS
+        </a> 
+        or join <a href="http://eepurl.com/d48hj">mailing list</a>.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+
+</html>

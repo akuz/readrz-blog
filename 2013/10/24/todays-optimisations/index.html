@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Today's Optimisations</title>
+  <meta name="description" content="Mid-morning update on today’s optimizations:">
+
+  <link rel="canonical" href="http://blog.readrz.com/readrz-blog/2013/10/24/todays-optimisations/">
+  <link rel="alternate" type="application/rss+xml" title="Readrz Development Blog" href="http://blog.readrz.com/readrz-blogfeed.xml" />
+
+  <link rel="stylesheet" href="/readrz-blog/css/main.css">
+  <link rel="stylesheet" href="/readrz-blog/lib/bootstrap/3.3.4/css/bootstrap-cerulean.min.css">
+  <link rel="stylesheet" href="/readrz-blog/lib/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="/readrz-blog/lib/jquery/jquery-2.1.3.min.js"></script>
+  <script src="/readrz-blog/lib/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="/readrz-blog/lib/picturefill/picturefill.min.js"></script>
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/readrz-blog/">
+        <i class="fa fa-server"></i> Readrz Development Blog
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav">
+
+        <li class=""><a href="/readrz-blog/">Home</a></li>
+
+        
+        
+          
+            
+          
+        
+          
+            
+              <li class=""><a href="/readrz-blog/about/">About</a></li>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+        <li><a href="http://www.readrz.com"><i class="fa fa-external-link-square"></i> Readrz.com</a></li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+
+    <div class="container">
+      <article>
+
+  <div class="page-header">
+    <h1>Today's Optimisations<br /><small>Oct 24, 2013</small></h1>
+  </div>
+
+  <p>Mid-morning update on today’s optimizations:</p>
+
+<ul>
+  <li>Gzip compression for all interaction with server
+    <ul>
+      <li>Bandwidth reduction of 75%</li>
+      <li>Overall summary size down to 150Kb from 700Kb</li>
+      <li>Hence, speed of getting a response from server up 4 times</li>
+    </ul>
+  </li>
+  <li>Precalculation of search section combinations
+    <ul>
+      <li>Various section combinations results are precalculated (kept alive)</li>
+      <li>This applies to different time periods (selected at the top)</li>
+      <li>Summaries should on average now load in 2 seconds</li>
+    </ul>
+  </li>
+</ul>
+
+
+</article>
+
+
+    </div>
+
+    
+<hr />
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-4">
+      Contact email:<br />
+      <a href="mailto:andrey@readrz.com">andrey@readrz.com</a>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-4">
+        
+        <a href="https://github.com/akuz">
+          <i class="fa fa-github"></i>
+          <span class="username">akuz</span>
+        </a> <br />
+        
+        
+        <a href="https://twitter.com/akuz_me">
+          <i class="fa fa-twitter"></i>
+          <span class="username">akuz_me</span>
+        </a>
+        <br />
+        
+        <br />
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4">
+      <p>This is the Readrz.com development blog. Feel free to get in touch is you want to discuss anything.
+</p>
+      <p>
+        Subscribe
+        <a href="/readrz-blog/feed.xml">
+          via <i class="fa fa-rss"></i>
+          RSS
+        </a> 
+        or join <a href="http://eepurl.com/d48hj">mailing list</a>.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+
+</html>
