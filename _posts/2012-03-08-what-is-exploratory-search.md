@@ -9,8 +9,6 @@ When I explain to people what are we working on, I try not to mention the term
 I'll try to collate some definitions and provide an example of a task 
 when the exploratory search is needed.
 
-<!--more-->
-
 ### Overview
 
 One of the definitions I like was given in the recent paper from FXPAL 
@@ -27,6 +25,8 @@ of some topic.</blockquote>
 
 A good outline of this paper was 
 <a href="http://lifidea.wordpress.com/2011/09/22/fxpal-paper-on-exploratory-search/">posted by Jin Y. Kim</a>.
+
+<!--more-->
 
 In the <a href="http://en.wikipedia.org/wiki/Exploratory_search">Wikipedia article on exploratory search</a>, 
 it is defined as:

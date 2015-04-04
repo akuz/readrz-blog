@@ -38,11 +38,13 @@ picture:
         class: blog-full
         itemprop: image
       source_lrg:
-        media: "(min-width: 40em)"
+        media: "(min-width: 750px)"
         width: 700
       source_med:
-        media: "(min-width: 30em)"
+        media: "(min-width: 500px)"
         width: 450
+      source_sm:
+        media: "(min-width: 300px)"
+        width: 280
       source_default:
-        width: 350
-        height: 200
+        width: 200
