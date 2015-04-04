@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readrz Blog</title>
+    <description>This is the Readrz.com development blog. Feel free to get in touch is you want to discuss anything.
+</description>
+    <link>http://blog.readrz.com/readrz-blog/</link>
+    <atom:link href="http://blog.readrz.com/readrz-blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 04 Apr 2015 11:06:07 +0100</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2015 11:06:07 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>The Problem with the News</title>
+        <description>
+</description>
+        <pubDate>Thu, 10 Oct 2013 13:00:00 +0100</pubDate>
+        <link>http://blog.readrz.com/readrz-blog/2013/10/10/the-problem-with-the-news/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2013/10/10/the-problem-with-the-news/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Today&#39;s Optimisations</title>
+        <description>&lt;p&gt;Mid-morning update on today’s optimizations:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gzip compression for all interaction with server
+    &lt;ul&gt;
+      &lt;li&gt;Bandwidth reduction of 75%&lt;/li&gt;
+      &lt;li&gt;Overall summary size down to 150Kb from 700Kb&lt;/li&gt;
+      &lt;li&gt;Hence, speed of getting a response from server up 4 times&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Precalculation of search section combinations
+    &lt;ul&gt;
+      &lt;li&gt;Various section combinations results are precalculated (kept alive)&lt;/li&gt;
+      &lt;li&gt;This applies to different time periods (selected at the top)&lt;/li&gt;
+      &lt;li&gt;Summaries should on average now load in 2 seconds&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 24 Oct 2012 13:00:00 +0100</pubDate>
+        <link>http://blog.readrz.com/readrz-blog/2012/10/24/todays-optimisations/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2012/10/24/todays-optimisations/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Towards Sentiment Analysis</title>
+        <description>&lt;p&gt;I am beginning a new foray deeper into computational linguistics in the area of sentiment analysis. In this post I want to outline the main goals and the reasons behind them. Later I am planning to post updates on the progress.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exploratory Search.&lt;/strong&gt; We have been working for some time on exploratory search at Readrz. The goal was to allow people to explore a collection of texts. Overall, this is a very big topic. The texts can be explored along semantical dimensions, and along the time dimension if texts are timestamped. Semantical dimensions can be predefined categories, tag clouds, search queries, or more vaguely defined topics (more on this in next paragraph). When semantical dimensions are specified manually as categories/tags and then associated with documents by people working with them, exploratory search becomes a relatively easy task. We can implement filtering by the defined categories and by time. We can let people see related categories by inferring them from associations of documents with multiple categories. We can also easily compute the “activity” in different categories over time and present graphs to the users, and let them navigate through time. This have been implemented in many online systems that allow tagging documents, photos, etc.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;Categories Extraction.&lt;/strong&gt; However, we do not always have a luxury of employing actual humans for sorting out the texts for us and creating a set of interrelated categories that would make sense for a given collection of documents. In this case we want to automate the process of finding the categories (semantical dimensions) that would be appropriate for exploring a collection of documents. As part of designing this algorithm we will need to define 1) how our semantical dimensions are described, and 2) how these semantical dimensions are related to the documents. This step is very important, as it not only defines the core of the computational model, but also influences what kind of user interfaces can be produced using the automatically inferred categories.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Evolution of Categories.&lt;/strong&gt; One important aspect of the model for automatic inference of categories is the way the categories relate to time, if timestamps of documents are available. Often it is assumed that semantical categories do not change over time. It makes sense in many cases. We are currently only looking at ideas that make this assumption. However, it may be of interest to see how the document collection changes over time, whether there are new topics appearing, etc. For example, see &lt;a href=&quot;http://www.cs.princeton.edu/~blei/papers/BleiLafferty2006a.pdf&quot;&gt;&lt;em&gt;Dynamic Topic Models&lt;/em&gt;, Blei, Lafferty, 2006&lt;/a&gt; (PDF).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic Models.&lt;/strong&gt; A famous class of a models for semantic categories extraction are topic models. They make several assumptions. First is a “bag of words” assumption, i.e. the order of words in a document is not important. There are variations of the model that take into account pairs of words, but the these pairs are also exchangeable within a document. Then based on this assumption, if we define the semantical categories as topics described as a discrete probability distribution over words, we can define a generative process which relates topics to documents.  We basically define how would the documents be produced given the topics are known, and then reverse engineer the topics from the document collection we have. Each document would be generated as follows. For each document, select a distribution of this document over topics. Then for each word position in document, select a topic from document-specific distribution over topics, then select a word from topic-specific distribution over words, and then place the word at the current position. Continue until the document is complete. The model details are more complicated than that, see &lt;a href=&quot;http://www.cs.princeton.edu/~blei/papers/BleiNgJordan2003.pdf&quot;&gt;&lt;em&gt;Latent Dirichlet Allocation&lt;/em&gt;, Blei, Ng, Jordan, 2003&lt;/a&gt; (PDF) for more details.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bag-of-Words Limitations.&lt;/strong&gt; Topic models can produce semantic categories (topics) that give a good overview of a document collection. But, because of the bag-of-words assumption, the internal structure of the documents is lost, and therefore the results are necessarily limited in their ability to extract textual information that is represented using deeper linguistic structures. At first, when a person doesn’t know what the document collection is all about, the topics can be very useful because they provide clues as to what kind of subject areas are present in the document. After more information is available about the subject areas, people want to ask deeper questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topics and User Interface.&lt;/strong&gt; As I mentioned above under “Categories extraction”, the details of the model for automatic identification of sentiment categories will influence what kind of UI it is possible to design, given the semantic categories found from the texts. In case of topic models, the topics are generally defined as discrete probability distributions over words. Various model tried to define relationships between topics. For example see &lt;a href=&quot;http://www.cs.cmu.edu/~lafferty/pub/ctm.pdf&quot;&gt;&lt;em&gt;Correlated Topic Models&lt;/em&gt;, Blei, Lafferty&lt;/a&gt; or &lt;a href=&quot;http://books.nips.cc/papers/files/nips16/NIPS2003_AA03.pdf&quot;&gt;&lt;em&gt;Hierarchical Topic Models and the Nested Chinese Restaurant Process&lt;/em&gt;, Blei, Jordan, Griffith, Tenenbaum&lt;/a&gt;. So, topic models can have some degree of flexibility to produce semantic categories (topics) with some interrelations between them. But the most you can get is: either a flat list of topics, a list of correlated topics, some hierarchy of topics, or combinations of hierarchical and correlated topics. So in the UI that you can produce from this, you are limited to dissecting the documents collection using these topics that are distributions over words that can occur anywhere within a document. You, by design, largely due to the bag-of-words assumption, lack the tools that will allow you to dissect the meaning further.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Drilling Down Topics.&lt;/strong&gt; After our experiments with topic models to design the UI at &lt;a href=&quot;http://www.readrz.com&quot;&gt;Readrz.com&lt;/a&gt;, we understood that after people get an overview of what the documents can be about (for example finance, business, and international relations, or some more fine-grained topics), then they want to drill down. The way they want to drill down is usually limited to some set of concepts that they know about the subject area, and a set of sentiments that can be attached to them (good / bad / etc). Normally the concepts would be expressed as (collections of) nouns, and sentiment would be expressed with verbs and adjectives (of course, I am simplifying). See more below under sentiment analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Linguistic Information.&lt;/strong&gt; I would like to add that topic models are purely bootstrapped from the statistics of the word occurrences within the documents collection. They do not accomodate any further linguistic information into analysis. However, this information is readily available. Using &lt;a href=&quot;http://wordnet.princeton.edu/&quot;&gt;WordNet&lt;/a&gt;, it is possible to obtain the information about the part-of-speech possibilities for a given word, as well as various senses (meanings) for different uses of the word, plus synonyms, antonyms, hyponyms, etc. There are also various lists available expressing the sentiment for various words. Using all this information within the model for automatic identification of semantic categories can increase the richness of the results that may be extracted from a collection of texts. The richness of the results will enhance the richness of the UI that can be generated for the people to explore the documents collection.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sentiment analysis.&lt;/strong&gt; Let’s now consider the situation when people know what the subject area of the documents collection is. In this case, to explore the documents further, they will want to drill down using some additional tools. If you think independently of the subject area, then there are always some things described in text that can be referred to as having positive or negative sentiment. The sentiment would normally be attributed to adjectives and verbs. People, when confronting a document collection in a known subject area, will often want to be able to split it  along the sentiment dimension, i.e. find the statements that express good or bad (or some other) sentiment. There are colletions of words &lt;a href=&quot;http://wordnetweb.princeton.edu/perl/webwn&quot;&gt;available&lt;/a&gt; that would provide you with sentiment ranking for the words in general English. This sentiment ranking for words can be further re-fit to a specific training document collection, for which the sentiments of individual documents are known. This way we can extract subject-specific sentiment ranking for words. Then the sentiment of a given document can be scored from the words that it contains.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Drilling Down Sentiment.&lt;/strong&gt; However, it is not always possible to attribute a specific sentiment to an entire document. A single text can express different sentiments towards different things. For a more fine-grained analysis we would need to define (or extract) the important things that the sentiment can be expressed about. Let’s call these things concepts. For example, in the area of finance some of the concept would be: stock price, acquisition, bailout plan, GDP. In a naive approach, if we already know the subject area, we could manually define the concepts that people may care about. Then we would score and aggregate the sentiment towards these concepts by examining the words around the mentions of these concepts in texts. This gives us an additional option for a potential UI. We will be able to show not only an overall sentiment of specific documents, but also allow people to drill down and see the breakdown of sentiment by various concepts. Introducing this additional dimension for filtering actually non-linearly increases the exploratory capabilities of the UI. Let’s say you had three sentiment ranks: good, neutral, and bad. Now, say you introduce three concepts that can be tracked. Your overall number of options available to user increases to nine (three times three). We don’t need to worry that we are creating too many possible combinations if we add more concepts. We can always calculate and suggest what would be the most useful / related concepts that user can add to their search based on their cooccurrence.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts Extraction.&lt;/strong&gt; It is also possible to infer the concepts in a specific subject area from a training collection of documents. We can bootstrap the process by starting with a list of words (generally verbs or adjectives) that express certain sentiments. Then by analysing the documents we can extract nouns or collections of nouns that occur near the words that express sentiment. By collecting this statistics we can extract the concepts that are important in a certain subject area. We can either fully automate this process, or allow a manual approval of detected concepts. When some concepts are detected, we can further use this data to extract more words that express the sentiment in the specific subject area by doing some more linguistic analysis. We can then repeat the process of extracting the concepts again.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Time References.&lt;/strong&gt; It is also important to detect what time period an expressed sentiment relates to. Is it for something that just happened, something in the future, or just bringing something from the past? Some very sophisticated systems exists that do all of the above, but the one that also takes into account the time dimension is &lt;a href=&quot;http://www.recordedfuture.com/&quot;&gt;Recorded Future&lt;/a&gt; (acquired by Google). They aggregate sentiment expressed about the future and map it to a complex user interface that aggregates displays public opinion about various events in the future. I would say that this is probably the most advanced version of an NLP system that I know of. They have a lot of technology that we would like to have out of the box. However, even using that technology you could design lots of user interfaces that allow users to see information in different ways. Recorded Future’s UI is very advanced, but in my opinion it thus lacks focus on a particular task. It is a UI for research. We want to design something simpler and focusing on a more specific business problem.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Plan.&lt;/strong&gt; We are now working on a better system for exploratory search that would have the user interfaces described above, and maybe more. In general it should be able to be applied to any documents collection, although I think we might still keep the manual approval step for the concepts extraction. I am starting refactoring of the basic NLP tasks that we have implemented, and then will gradually move to more complex tasks. The beginning of the plan looks like this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Improve basic words parsing (including detecting abbreviations, all caps, various apostrophes, etc)&lt;/li&gt;
+  &lt;li&gt;Create a more generic version of entity detection (this would be needed for my version of part-of-speech detection)&lt;/li&gt;
+  &lt;li&gt;Implement basic sentiment detection and lexicon fitting (using bag-of-words assumption)&lt;/li&gt;
+  &lt;li&gt;Create a simple user interface for displaying basic sentiment ranking of tracked entities&lt;/li&gt;
+  &lt;li&gt;Implement part-of-speech tagging (I am planning to use WordNet with a little probabilistic inference on top for disambiguation)&lt;/li&gt;
+  &lt;li&gt;Try out concepts extraction using a fitted sentiment lexicon&lt;/li&gt;
+  &lt;li&gt;Advanced sentiment detection with concepts&lt;/li&gt;
+  &lt;li&gt;User interface with advanced sentiment&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I am planing to report on the progress here.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Jun 2012 13:00:00 +0100</pubDate>
+        <link>http://blog.readrz.com/readrz-blog/2012/06/28/towards-sentiment-analysis/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2012/06/28/towards-sentiment-analysis/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Exploratory Search: Lessons</title>
+        <description>&lt;p&gt;Several lessons learned from implementing exploratory search at Readrz (so far):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There is a need from a wide audience for exploratory tools&lt;/li&gt;
+  &lt;li&gt;Starting point of exploration is important, and there can be two entry points:
+    &lt;ul&gt;
+      &lt;li&gt;Top-down: narrowing down the content based on suggested sections&lt;/li&gt;
+      &lt;li&gt;Bottom-up: search for key words, and then having options to extend/shift results&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Search: users are not interested in seeing broad categories at the top of search results because they can bring a lot of “related” results which do not correspond to search query exactly. Instead they want to see the exact search results first, and only then some additional options to extend/shift the results.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 01 May 2012 13:00:00 +0100</pubDate>
+        <link>http://blog.readrz.com/readrz-blog/2012/05/01/exploratory-search-lessons/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2012/05/01/exploratory-search-lessons/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Release: Search in Sections</title>
+        <description>&lt;p&gt;Today we have released a first version of search! At the moment, you 
+can only search within the currently selected section on the left. 
+We are working on cross-sectional global search, and it will be released 
+in the near future. Below are example of some searches…&lt;/p&gt;
+
+&lt;p&gt;Search for “football” within the Celebrities section brings up 
+Daniel Redcliffe’s opinions about footballers plus another story 
+about the romance of a famous footballer:&lt;/p&gt;
+
+&lt;picture&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-994by666-34a1e4.png&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-700by469-34a1e4.png&quot; media=&quot;(min-width: 40em)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-675by452-34a1e4.png&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-450by302-34a1e4.png&quot; media=&quot;(min-width: 30em)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-525by300-34a1e4.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-350by200-34a1e4.png&quot; /&gt;
+    &lt;img srcset=&quot;/readrz-blog/generated/20120403/search_football-350by200-34a1e4.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+  &lt;/picture&gt;
+
+&lt;p&gt;&lt;img src=&quot;/readrz-blog/img/20120403/search_football-300x201.png&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Search for “elections” within the World section:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/readrz-blog/img/20120403/search_elections-284x300.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Search for “hedge fund” within the Fin Blogs section:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/readrz-blog/img/20120403/search_hedge_fund-284x300.png&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Apr 2012 13:00:00 +0100</pubDate>
+        <link>http://blog.readrz.com/readrz-blog/2012/04/03/release-search-in-sections/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2012/04/03/release-search-in-sections/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>What is Exploratory Search?</title>
+        <description>&lt;p&gt;When I explain to people what are we working on, I try not to mention the term 
+“exploratory search” because almost no one has any idea about what it is. 
+I’ll try to collate some definitions and provide an example of a task 
+when the exploratory search is needed.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;One of the definitions I like was given in the recent paper from FXPAL 
+(Fuji Xerox Palo Alto Laboratory) titled 
+&lt;a href=&quot;http://www.fxpal.com/publications/FXPAL-PR-10-573.pdf&quot;&gt;Interactive 
+Information Seeking via Selective Application of Contextual Knowledge&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;Exploratory search is often characterized by an evolving information 
+need and the likelihood that the information sought is distributed across multiple 
+documents. Thus the goal of the search process is not to formulate the perfect 
+query or to find the ideal document, but to collect information through a variety 
+of means, and to combine the discovered information to achieve a coherent understanding 
+of some topic.&lt;/blockquote&gt;
+
+&lt;p&gt;A good outline of this paper was 
+&lt;a href=&quot;http://lifidea.wordpress.com/2011/09/22/fxpal-paper-on-exploratory-search/&quot;&gt;posted by Jin Y. Kim&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the &lt;a href=&quot;http://en.wikipedia.org/wiki/Exploratory_search&quot;&gt;Wikipedia article on exploratory search&lt;/a&gt;, 
+it is defined as:&lt;/p&gt;
+
+&lt;blockquote&gt;Exploratory search is a specialization of information exploration 
+which represents the activities carried out by searchers who are either:
+
+a) unfamiliar with the domain of their goal (i.e. need to learn about 
+the topic in order to understand how to achieve their goal)
+
+b) unsure about the ways to achieve their goals 
+(either the technology or the process)
+
+c) or even unsure about their goals in the first place.&lt;/blockquote&gt;
+&lt;p&gt;Gary Marchionini, in his paper &lt;a href=&quot;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.97.4576&amp;amp;rep=rep1&amp;amp;type=pdf&quot;&gt;Exploratory Search: 
+From Finding to Understanding&lt;/a&gt;, approaches exploratory search as:&lt;/p&gt;
+
+&lt;blockquote&gt;a blend of querying and browsing strategies.&lt;/blockquote&gt;
+
+&lt;p&gt;For an interesting, albeit very abstract, description of possible user 
+interactions during exploratory search activities, 
+see &lt;a href=&quot;http://www.laurencenoel.fr/wp/?p=154&quot;&gt;this post by Laurence Noel&lt;/a&gt;. 
+ my opinion, the “information space” described in this post lacks another 
+ very important dimension, that is of &lt;em&gt;time&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The need for the emergence of exploratory search tools is recognized by 
+leading experts in the enterprise software solutions industry, 
+such as John Porter of Vivisimo (see his post on exploratory 
+search &lt;a href=&quot;http://informationoptimized.com/blog/2012/01/09/evolving-beyond-traditional-search/&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;an-example&quot;&gt;An Example&lt;/h3&gt;
+
+&lt;p&gt;Imagine you are a finance student or professional. 
+You want to learn what’s been published in the top 25 
+financial blogs in the last month. That would be about 
+7,000 blog posts. You can go ahead and read all of them, 
+of course. You must be quite a fast reader if you still 
+want to keep up on your other responsibilities.&lt;/p&gt;
+
+&lt;p&gt;The way you can approach your task is to start reading 
+the recent posts. As you gain more knowledge about possible 
+topics you are interested in and you will narrow down your 
+interests. After that you will need to come up with relevant 
+&lt;em&gt;search queries&lt;/em&gt; that you will need to type in a 
+search engine to narrow down the results.&lt;/p&gt;
+
+&lt;p&gt;However, there is a number of drawbacks of this approach:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You might need to read a lot of articles you will not be interested in.&lt;/li&gt;
+  &lt;li&gt;You don’t know whether by reading a certain number of articles you have covered all potential topics that have been discussed during the last month (for example, if there was a big discussion of some issue two weeks ago, but since then a lot of other posts on other issues were published, with only sporadic mentions, if any, of the previously widely publicised topic).&lt;/li&gt;
+  &lt;li&gt;Your user experience will be highly fractured by switching between the reading mode and search mode. In addition, you will need to keep completely in your head any relations or issues that you identify as interesting for you (for example, the relation between articles on government debt yields, articles on stock prices, and European debt crisis).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of course, this problem has already been identified by many. 
+Below are some examples of applications that feature some exploratory 
+search capabilities. However, I think that all of them are still 
+providing only rudimentary capabilities for exploratory search, 
+and there is much more to be discovered and implemented.&lt;/p&gt;
+
+&lt;h3 id=&quot;current-solutions&quot;&gt;Current Solutions&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://news.google.com/&quot;&gt;Google News&lt;/a&gt; - by far the most advanced implementation of 
+exploration capabilities (ha ha, what other company did you expect to do it?), where you can 
+track various entities mentioned in the news, and also see other relevant entities that are 
+mentioned in a news story, displays relevant information from 
+&lt;a href=&quot;http://www.freebase.com/&quot;&gt;Freebase&lt;/a&gt; where available.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.google.com/&quot;&gt;Google Search&lt;/a&gt; - after you type a query, 
+a toolbar on the left side allows you to narrow down the results by the source 
+of information, time of publication, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://news360app.com/&quot;&gt;News360&lt;/a&gt; - an application for readers of 
+the news on mobile devices, allows tracking of entities mentioned in news articles, 
+displays relevant information from &lt;a href=&quot;http://www.freebase.com/&quot;&gt;Freebase&lt;/a&gt; 
+where available.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.news-republic.com/&quot;&gt;News Republic&lt;/a&gt; - another quality app 
+for mobile news reader that allows tracking the entities mentioned in the news and 
+seeing other relevant articles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These solutions are highly biased towards application to news. 
+But there are a lot of other areas that would benefit from a 
+similar approach. If you think widely enough, you can imagine 
+that in the future, as we accumulate more and more data, all 
+information navigation/search will converge towards the tools 
+that are by nature exploratory.&lt;/p&gt;
+
+&lt;p&gt;In the future posts I will discuss more ideas related to exploratory search in more details. 
+In particular, the following topics are very interesting to explore:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How to group relevant articles according to various levels of abstraction and relations between them&lt;/li&gt;
+  &lt;li&gt;How to design new user interfaces, and which features we will need for better exploration of texts&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 08 Mar 2012 12:00:00 +0000</pubDate>
+        <link>http://blog.readrz.com/readrz-blog/2012/03/08/what-is-exploratory-search/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2012/03/08/what-is-exploratory-search/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Updates: Calendar, Search</title>
+        <description>&lt;p&gt;The performance of story navigation using calendar has been improved. 
+Now when you click a date on the story calendar, the time needed to 
+show the relevant articles from that date is significantly shorter.&lt;/p&gt;
+
+&lt;p&gt;We are now working on the search functionality, which will allow you 
+to search for stories based on key words. Additionally, if you register 
+a profile, you will be able to add favourite words to your profile, 
+and then see the stories most relevant to you in a separate tab, 
+so you don’t need to search every time you come back.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Feb 2012 12:00:00 +0000</pubDate>
+        <link>http://blog.readrz.com/readrz-blog/2012/02/01/updates-calendar-search/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2012/02/01/updates-calendar-search/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Going Open with Website</title>
+        <description>&lt;p&gt;We have decided to make &lt;a href=&quot;http://www.readrz.com&quot;&gt;Readrz.com&lt;/a&gt; 
+website open for access by anyone. 
+Not all of the features we wanted to implement before the first 
+release are ready. The features still being in progress are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Search&lt;/li&gt;
+  &lt;li&gt;User profiles&lt;/li&gt;
+  &lt;li&gt;User favourites&lt;/li&gt;
+  &lt;li&gt;iPhone/Android App&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;However, we have decided to go ahead and open the current website to wider audience anyway. 
+The current magazines available on the website are refreshed every 6 hours. In the future, 
+this process can be made faster, including the option for live updates on user selected stories.&lt;/p&gt;
+
+&lt;p&gt;We also have a better algorithm lined up for funding the evolution of stories over time 
+to capture more time-context-dependent articles (based on what was going on at a particular 
+point in time). We expect the ranking of articles with regard to news stories over time will 
+be more precise and context dependent with the new algorithm.&lt;/p&gt;
+
+&lt;p&gt;To get email updates about our progress on new features, 
+please &lt;a href=&quot;http://eepurl.com/d48hj&quot;&gt;subscribe here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Jan 2012 12:00:00 +0000</pubDate>
+        <link>http://blog.readrz.com/readrz-blog/2012/01/03/woing-open-with-website/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2012/01/03/woing-open-with-website/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Starting Readrz Blog</title>
+        <description>&lt;p&gt;Welcome to the Readrz Blog from the founders of &lt;a href=&quot;http://www.readrz.com&quot;&gt;Readrz.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here we want to share some info about what has been done on the project so far. 
+We would also highly value any feedback and thoughts about the future development.&lt;/p&gt;
+
+&lt;p&gt;The current vision for Readrz is that we are automating the creation of magazines 
+from thousands of news articles available on the web. We use statistics to detect 
+articles related to each other and group them into stories spread over time. 
+We then try to use our modest UI skills to provide you a convenient user 
+interface to navigate these stories.&lt;/p&gt;
+
+&lt;p&gt;We have a bunch of other ideas to build on top of this. I bet you can easily 
+start to imagine them too. However, given limited resources, it is very hard 
+to know at this time which ones we will pursue first. We will follow up on 
+the developments as we go along.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Jan 2012 12:00:00 +0000</pubDate>
+        <link>http://blog.readrz.com/readrz-blog/2012/01/01/starting-readrz-blog/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2012/01/01/starting-readrz-blog/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

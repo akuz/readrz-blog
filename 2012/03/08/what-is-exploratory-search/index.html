@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>What is Exploratory Search?</title>
+  <meta name="description" content="When I explain to people what are we working on, I try not to mention the term “exploratory search” because almost no one has any idea about what it is. I’ll...">
+
+  <link rel="canonical" href="http://blog.readrz.com/readrz-blog/2012/03/08/what-is-exploratory-search/">
+  <link rel="alternate" type="application/rss+xml" title="Readrz Blog" href="http://blog.readrz.com/readrz-blogfeed.xml" />
+
+  <link rel="stylesheet" href="/readrz-blog/css/main.css">
+  <link rel="stylesheet" href="/readrz-blog/lib/bootstrap/3.3.4/css/bootstrap-flatly.min.css">
+  <link rel="stylesheet" href="/readrz-blog/lib/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="/readrz-blog/lib/jquery/jquery-2.1.3.min.js"></script>
+  <script src="/readrz-blog/lib/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="/readrz-blog/lib/picturefill/picturefill.min.js"></script>
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/readrz-blog/">
+        Readrz Blog
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav">
+
+        <li class=""><a href="/readrz-blog/">Home</a></li>
+
+        
+        
+          
+            
+          
+        
+          
+            
+              <li class=""><a href="/readrz-blog/about/">About</a></li>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+
+    <div class="container">
+      <article>
+
+  <div class="page-header">
+    <h1>What is Exploratory Search?<br /><small>Mar 8, 2012</small></h1>
+  </div>
+
+  <p>When I explain to people what are we working on, I try not to mention the term 
+“exploratory search” because almost no one has any idea about what it is. 
+I’ll try to collate some definitions and provide an example of a task 
+when the exploratory search is needed.</p>
+
+<!--more-->
+
+<h3 id="overview">Overview</h3>
+
+<p>One of the definitions I like was given in the recent paper from FXPAL 
+(Fuji Xerox Palo Alto Laboratory) titled 
+<a href="http://www.fxpal.com/publications/FXPAL-PR-10-573.pdf">Interactive 
+Information Seeking via Selective Application of Contextual Knowledge</a>:</p>
+
+<blockquote>Exploratory search is often characterized by an evolving information 
+need and the likelihood that the information sought is distributed across multiple 
+documents. Thus the goal of the search process is not to formulate the perfect 
+query or to find the ideal document, but to collect information through a variety 
+of means, and to combine the discovered information to achieve a coherent understanding 
+of some topic.</blockquote>
+
+<p>A good outline of this paper was 
+<a href="http://lifidea.wordpress.com/2011/09/22/fxpal-paper-on-exploratory-search/">posted by Jin Y. Kim</a>.</p>
+
+<p>In the <a href="http://en.wikipedia.org/wiki/Exploratory_search">Wikipedia article on exploratory search</a>, 
+it is defined as:</p>
+
+<blockquote>Exploratory search is a specialization of information exploration 
+which represents the activities carried out by searchers who are either:
+
+a) unfamiliar with the domain of their goal (i.e. need to learn about 
+the topic in order to understand how to achieve their goal)
+
+b) unsure about the ways to achieve their goals 
+(either the technology or the process)
+
+c) or even unsure about their goals in the first place.</blockquote>
+<p>Gary Marchionini, in his paper <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.97.4576&amp;rep=rep1&amp;type=pdf">Exploratory Search: 
+From Finding to Understanding</a>, approaches exploratory search as:</p>
+
+<blockquote>a blend of querying and browsing strategies.</blockquote>
+
+<p>For an interesting, albeit very abstract, description of possible user 
+interactions during exploratory search activities, 
+see <a href="http://www.laurencenoel.fr/wp/?p=154">this post by Laurence Noel</a>. 
+ my opinion, the “information space” described in this post lacks another 
+ very important dimension, that is of <em>time</em>.</p>
+
+<p>The need for the emergence of exploratory search tools is recognized by 
+leading experts in the enterprise software solutions industry, 
+such as John Porter of Vivisimo (see his post on exploratory 
+search <a href="http://informationoptimized.com/blog/2012/01/09/evolving-beyond-traditional-search/">here</a>).</p>
+
+<h3 id="an-example">An Example</h3>
+
+<p>Imagine you are a finance student or professional. 
+You want to learn what’s been published in the top 25 
+financial blogs in the last month. That would be about 
+7,000 blog posts. You can go ahead and read all of them, 
+of course. You must be quite a fast reader if you still 
+want to keep up on your other responsibilities.</p>
+
+<p>The way you can approach your task is to start reading 
+the recent posts. As you gain more knowledge about possible 
+topics you are interested in and you will narrow down your 
+interests. After that you will need to come up with relevant 
+<em>search queries</em> that you will need to type in a 
+search engine to narrow down the results.</p>
+
+<p>However, there is a number of drawbacks of this approach:</p>
+
+<ul>
+  <li>You might need to read a lot of articles you will not be interested in.</li>
+  <li>You don’t know whether by reading a certain number of articles you have covered all potential topics that have been discussed during the last month (for example, if there was a big discussion of some issue two weeks ago, but since then a lot of other posts on other issues were published, with only sporadic mentions, if any, of the previously widely publicised topic).</li>
+  <li>Your user experience will be highly fractured by switching between the reading mode and search mode. In addition, you will need to keep completely in your head any relations or issues that you identify as interesting for you (for example, the relation between articles on government debt yields, articles on stock prices, and European debt crisis).</li>
+</ul>
+
+<p>Of course, this problem has already been identified by many. 
+Below are some examples of applications that feature some exploratory 
+search capabilities. However, I think that all of them are still 
+providing only rudimentary capabilities for exploratory search, 
+and there is much more to be discovered and implemented.</p>
+
+<h3 id="current-solutions">Current Solutions</h3>
+
+<ul>
+  <li><a href="http://news.google.com/">Google News</a> - by far the most advanced implementation of 
+exploration capabilities (ha ha, what other company did you expect to do it?), where you can 
+track various entities mentioned in the news, and also see other relevant entities that are 
+mentioned in a news story, displays relevant information from 
+<a href="http://www.freebase.com/">Freebase</a> where available.</li>
+  <li><a href="http://www.google.com/">Google Search</a> - after you type a query, 
+a toolbar on the left side allows you to narrow down the results by the source 
+of information, time of publication, etc.</li>
+  <li><a href="http://news360app.com/">News360</a> - an application for readers of 
+the news on mobile devices, allows tracking of entities mentioned in news articles, 
+displays relevant information from <a href="http://www.freebase.com/">Freebase</a> 
+where available.</li>
+  <li><a href="http://www.news-republic.com/">News Republic</a> - another quality app 
+for mobile news reader that allows tracking the entities mentioned in the news and 
+seeing other relevant articles.</li>
+</ul>
+
+<p>These solutions are highly biased towards application to news. 
+But there are a lot of other areas that would benefit from a 
+similar approach. If you think widely enough, you can imagine 
+that in the future, as we accumulate more and more data, all 
+information navigation/search will converge towards the tools 
+that are by nature exploratory.</p>
+
+<p>In the future posts I will discuss more ideas related to exploratory search in more details. 
+In particular, the following topics are very interesting to explore:</p>
+
+<ul>
+  <li>How to group relevant articles according to various levels of abstraction and relations between them</li>
+  <li>How to design new user interfaces, and which features we will need for better exploration of texts</li>
+</ul>
+
+
+</article>
+
+
+    </div>
+
+    
+<hr />
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-4">
+      Contact email:<br />
+      <a href="mailto:andrey@readrz.com">andrey@readrz.com</a>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-4">
+        
+        <a href="https://github.com/akuz">
+          <span class="icon  icon--github">
+            <svg viewBox="0 0 16 16">
+              <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+            </svg>
+          </span>
+          <span class="username">akuz</span>
+        </a> <br />
+        
+        
+        <a href="https://twitter.com/akuz_me">
+          <span class="icon  icon--twitter">
+            <svg viewBox="0 0 16 16">
+              <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+              c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+            </svg>
+          </span>
+          <span class="username">akuz_me</span>
+        </a> <br />
+        
+        <br />
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4">
+      <p>This is the Readrz.com development blog. Feel free to get in touch is you want to discuss anything.
+</p>
+      <p>
+        Subscribe <a href="/readrz-blog/feed.xml">via RSS</a> 
+        or join our <a href="http://eepurl.com/d48hj">mailing list</a>.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+
+</html>
