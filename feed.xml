@@ -4,10 +4,10 @@
     <title>Readrz Development Blog</title>
     <description>This is the Readrz.com development blog. Feel free to get in touch is you want to discuss anything.
 </description>
-    <link>http://blog.readrz.com/readrz-blog/</link>
-    <atom:link href="http://blog.readrz.com/readrz-blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Apr 2015 16:54:42 +0100</pubDate>
-    <lastBuildDate>Sat, 04 Apr 2015 16:54:42 +0100</lastBuildDate>
+    <link>http://blog.readrz.com/</link>
+    <atom:link href="http://blog.readrz.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 04 Apr 2015 17:36:36 +0100</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2015 17:36:36 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -41,11 +41,11 @@ I am keeping the database of all the news scanned between Jan, 2011 - Mar, 2015.
 &lt;p&gt;Front page (celebrating the Iran deal at the top news item):&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot1-700by642-2b2b22.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot1-450by412-2b2b22.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot1-280by257-2b2b22.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot1-200by183-2b2b22.png&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20150404/shot1-200by183-2b2b22.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20150404/shot1-700by642-2b2b22.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20150404/shot1-450by412-2b2b22.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20150404/shot1-280by257-2b2b22.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20150404/shot1-200by183-2b2b22.png&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20150404/shot1-200by183-2b2b22.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -55,11 +55,11 @@ I am keeping the database of all the news scanned between Jan, 2011 - Mar, 2015.
 &lt;p&gt;Filtered showing all news in the Finance category (notice the sub-categories too):&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot2-700by656-e08d80.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot2-450by422-e08d80.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot2-280by263-e08d80.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot2-200by188-e08d80.png&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20150404/shot2-200by188-e08d80.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20150404/shot2-700by656-e08d80.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20150404/shot2-450by422-e08d80.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20150404/shot2-280by263-e08d80.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20150404/shot2-200by188-e08d80.png&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20150404/shot2-200by188-e08d80.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -67,18 +67,18 @@ I am keeping the database of all the news scanned between Jan, 2011 - Mar, 2015.
 &lt;p&gt;Search results when searching for “Ukraine”:&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot3-700by657-f22609.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot3-450by422-f22609.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot3-280by263-f22609.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot3-200by188-f22609.png&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20150404/shot3-200by188-f22609.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20150404/shot3-700by657-f22609.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20150404/shot3-450by422-f22609.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20150404/shot3-280by263-f22609.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20150404/shot3-200by188-f22609.png&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20150404/shot3-200by188-f22609.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 04 Apr 2015 13:00:00 +0100</pubDate>
-        <link>http://blog.readrz.com/readrz-blog/2015/04/04/suspending-readrz-services/</link>
-        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2015/04/04/suspending-readrz-services/</guid>
+        <link>http://blog.readrz.com/2015/04/04/suspending-readrz-services/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/2015/04/04/suspending-readrz-services/</guid>
         
         
       </item>
@@ -118,11 +118,11 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/1-397by454-7b8b71.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/1-397by454-7b8b71.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/1-280by320-7b8b71.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/1-200by229-7b8b71.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131110/1-200by229-7b8b71.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/1-397by454-7b8b71.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/1-397by454-7b8b71.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/1-280by320-7b8b71.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/1-200by229-7b8b71.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131110/1-200by229-7b8b71.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -139,11 +139,11 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/2-340by323-5720fe.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/2-340by323-5720fe.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/2-280by266-5720fe.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/2-200by190-5720fe.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131110/2-200by190-5720fe.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/2-340by323-5720fe.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/2-340by323-5720fe.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/2-280by266-5720fe.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/2-200by190-5720fe.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131110/2-200by190-5720fe.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -157,11 +157,11 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/3-385by284-84d1b7.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/3-385by284-84d1b7.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/3-280by207-84d1b7.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/3-200by148-84d1b7.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131110/3-200by148-84d1b7.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/3-385by284-84d1b7.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/3-385by284-84d1b7.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/3-280by207-84d1b7.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/3-200by148-84d1b7.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131110/3-200by148-84d1b7.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -175,11 +175,11 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/4-409by413-651524.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/4-409by413-651524.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/4-280by283-651524.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/4-200by202-651524.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131110/4-200by202-651524.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/4-409by413-651524.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/4-409by413-651524.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/4-280by283-651524.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/4-200by202-651524.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131110/4-200by202-651524.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -193,17 +193,17 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/5-388by548-77f1b0.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/5-388by548-77f1b0.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/5-280by395-77f1b0.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131110/5-200by282-77f1b0.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131110/5-200by282-77f1b0.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/5-388by548-77f1b0.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/5-388by548-77f1b0.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/5-280by395-77f1b0.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131110/5-200by282-77f1b0.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131110/5-200by282-77f1b0.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 </description>
         <pubDate>Sun, 10 Nov 2013 12:00:00 +0000</pubDate>
-        <link>http://blog.readrz.com/readrz-blog/2013/11/10/new-user-interface-mock-up/</link>
-        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2013/11/10/new-user-interface-mock-up/</guid>
+        <link>http://blog.readrz.com/2013/11/10/new-user-interface-mock-up/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/2013/11/10/new-user-interface-mock-up/</guid>
         
         
       </item>
@@ -231,8 +231,8 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;p&gt;I will be posting mock ups of the updated GUI based on feedback, and then get to work on it.&lt;/p&gt;
 </description>
         <pubDate>Fri, 08 Nov 2013 12:00:00 +0000</pubDate>
-        <link>http://blog.readrz.com/readrz-blog/2013/11/08/hacker-news-post/</link>
-        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2013/11/08/hacker-news-post/</guid>
+        <link>http://blog.readrz.com/2013/11/08/hacker-news-post/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/2013/11/08/hacker-news-post/</guid>
         
         
       </item>
@@ -240,68 +240,68 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
       <item>
         <title>Overview Presentation v1</title>
         <description>&lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide1-600by450-9ae69d.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide1-450by338-9ae69d.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide1-280by210-9ae69d.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide1-200by150-9ae69d.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131101/slide1-200by150-9ae69d.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide1-600by450-9ae69d.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide1-450by338-9ae69d.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide1-280by210-9ae69d.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide1-200by150-9ae69d.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131101/slide1-200by150-9ae69d.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/readrz-blog/pdf/readrz-presentation-v.1.1.pdf&quot;&gt;Download PDF (5 pages)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/pdf/readrz-presentation-v.1.1.pdf&quot;&gt;Download PDF (5 pages)&lt;/a&gt;&lt;/p&gt;
 
 &lt;!--more--&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide2-600by450-df67fe.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide2-450by338-df67fe.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide2-280by210-df67fe.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide2-200by150-df67fe.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131101/slide2-200by150-df67fe.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide2-600by450-df67fe.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide2-450by338-df67fe.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide2-280by210-df67fe.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide2-200by150-df67fe.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131101/slide2-200by150-df67fe.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide3-600by450-43fcbb.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide3-450by338-43fcbb.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide3-280by210-43fcbb.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide3-200by150-43fcbb.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131101/slide3-200by150-43fcbb.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide3-600by450-43fcbb.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide3-450by338-43fcbb.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide3-280by210-43fcbb.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide3-200by150-43fcbb.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131101/slide3-200by150-43fcbb.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide4-600by450-6da682.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide4-450by338-6da682.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide4-280by210-6da682.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide4-200by150-6da682.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131101/slide4-200by150-6da682.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide4-600by450-6da682.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide4-450by338-6da682.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide4-280by210-6da682.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide4-200by150-6da682.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131101/slide4-200by150-6da682.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide5-600by450-6075bf.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide5-450by338-6075bf.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide5-280by210-6075bf.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide5-200by150-6075bf.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131101/slide5-200by150-6075bf.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide5-600by450-6075bf.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide5-450by338-6075bf.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide5-280by210-6075bf.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide5-200by150-6075bf.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131101/slide5-200by150-6075bf.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide6-600by450-8ac7c7.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide6-450by338-8ac7c7.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide6-280by210-8ac7c7.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131101/slide6-200by150-8ac7c7.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131101/slide6-200by150-8ac7c7.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide6-600by450-8ac7c7.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide6-450by338-8ac7c7.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide6-280by210-8ac7c7.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131101/slide6-200by150-8ac7c7.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131101/slide6-200by150-8ac7c7.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 </description>
         <pubDate>Fri, 01 Nov 2013 12:00:00 +0000</pubDate>
-        <link>http://blog.readrz.com/readrz-blog/2013/11/01/overview-presentation-v1/</link>
-        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2013/11/01/overview-presentation-v1/</guid>
+        <link>http://blog.readrz.com/2013/11/01/overview-presentation-v1/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/2013/11/01/overview-presentation-v1/</guid>
         
         
       </item>
@@ -326,17 +326,17 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131028/top_hints-700by535-94b691.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131028/top_hints-450by344-94b691.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131028/top_hints-280by214-94b691.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131028/top_hints-200by153-94b691.png&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131028/top_hints-200by153-94b691.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131028/top_hints-700by535-94b691.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131028/top_hints-450by344-94b691.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131028/top_hints-280by214-94b691.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131028/top_hints-200by153-94b691.png&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131028/top_hints-200by153-94b691.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 </description>
         <pubDate>Mon, 28 Oct 2013 12:00:00 +0000</pubDate>
-        <link>http://blog.readrz.com/readrz-blog/2013/10/28/improvements-released/</link>
-        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2013/10/28/improvements-released/</guid>
+        <link>http://blog.readrz.com/2013/10/28/improvements-released/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/2013/10/28/improvements-released/</guid>
         
         
       </item>
@@ -363,8 +363,8 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 24 Oct 2013 13:00:00 +0100</pubDate>
-        <link>http://blog.readrz.com/readrz-blog/2013/10/24/todays-optimisations/</link>
-        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2013/10/24/todays-optimisations/</guid>
+        <link>http://blog.readrz.com/2013/10/24/todays-optimisations/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/2013/10/24/todays-optimisations/</guid>
         
         
       </item>
@@ -374,11 +374,11 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
         <description>&lt;p&gt;Yesterday a new version of the &lt;a href=&quot;http://www.readrz.com&quot;&gt;website&lt;/a&gt; I was talking about was finally released – horay! It features new section selectors based on &lt;a href=&quot;http://bl.ocks.org/mbostock/5944371&quot;&gt;Bilevel Partition&lt;/a&gt; by &lt;a href=&quot;http://bost.ocks.org/mike/&quot;&gt;Mike Bostock&lt;/a&gt; of &lt;a href=&quot;http://www.nytimes.com/&quot;&gt;NY Times&lt;/a&gt;. Using two circles, it makes it very easy to mix and match data along different dimensions. Front page looks like a search engine (because it is!) now:&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131023/bilevel_front-514by599-f24523.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131023/bilevel_front-450by524-f24523.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131023/bilevel_front-280by326-f24523.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131023/bilevel_front-200by233-f24523.png&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131023/bilevel_front-200by233-f24523.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131023/bilevel_front-514by599-f24523.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131023/bilevel_front-450by524-f24523.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131023/bilevel_front-280by326-f24523.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131023/bilevel_front-200by233-f24523.png&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131023/bilevel_front-200by233-f24523.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -388,11 +388,11 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;p&gt;Countries section is selected, showing all news about different countries:&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131023/bilevel_countries-700by495-055edf.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131023/bilevel_countries-450by318-055edf.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131023/bilevel_countries-280by198-055edf.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131023/bilevel_countries-200by141-055edf.png&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131023/bilevel_countries-200by141-055edf.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131023/bilevel_countries-700by495-055edf.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131023/bilevel_countries-450by318-055edf.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131023/bilevel_countries-280by198-055edf.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131023/bilevel_countries-200by141-055edf.png&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131023/bilevel_countries-200by141-055edf.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -400,11 +400,11 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;p&gt;Countries section and Finance “related” section are selected, showing financial news about all countries, sorted by the volume of financial news about each country:&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131023/bilevel_countries_finance-700by493-129d89.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131023/bilevel_countries_finance-450by317-129d89.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131023/bilevel_countries_finance-280by197-129d89.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131023/bilevel_countries_finance-200by141-129d89.png&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131023/bilevel_countries_finance-200by141-129d89.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131023/bilevel_countries_finance-700by493-129d89.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131023/bilevel_countries_finance-450by317-129d89.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131023/bilevel_countries_finance-280by197-129d89.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131023/bilevel_countries_finance-200by141-129d89.png&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131023/bilevel_countries_finance-200by141-129d89.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -412,8 +412,8 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;p&gt;Please go and &lt;a href=&quot;http://www.readrz.com&quot;&gt;check it out&lt;/a&gt; for yourself.&lt;/p&gt;
 </description>
         <pubDate>Wed, 23 Oct 2013 13:00:00 +0100</pubDate>
-        <link>http://blog.readrz.com/readrz-blog/2013/10/23/new-release-circle-menus/</link>
-        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2013/10/23/new-release-circle-menus/</guid>
+        <link>http://blog.readrz.com/2013/10/23/new-release-circle-menus/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/2013/10/23/new-release-circle-menus/</guid>
         
         
       </item>
@@ -423,11 +423,11 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
         <description>&lt;p&gt;Progress update on cross-section interface design. The menus are ready! The screenshot shows how you would be able to filter the news about the Elections in different Countries.&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131014/cross-section-elections-700by440-fa4e85.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131014/cross-section-elections-450by283-fa4e85.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131014/cross-section-elections-280by176-fa4e85.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131014/cross-section-elections-200by126-fa4e85.png&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131014/cross-section-elections-200by126-fa4e85.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131014/cross-section-elections-700by440-fa4e85.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131014/cross-section-elections-450by283-fa4e85.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131014/cross-section-elections-280by176-fa4e85.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131014/cross-section-elections-200by126-fa4e85.png&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131014/cross-section-elections-200by126-fa4e85.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -437,8 +437,8 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;p&gt;Now implementing a new layout for news blocks as discussed in the previous post.&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Oct 2013 13:00:00 +0100</pubDate>
-        <link>http://blog.readrz.com/readrz-blog/2013/10/14/cross-section-design-progress/</link>
-        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2013/10/14/cross-section-design-progress/</guid>
+        <link>http://blog.readrz.com/2013/10/14/cross-section-design-progress/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/2013/10/14/cross-section-design-progress/</guid>
         
         
       </item>
@@ -471,11 +471,11 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;p&gt;Here is how the home page will approximately look like (using &lt;a href=&quot;http://bl.ocks.org/mbostock/5944371&quot;&gt;Bilevel Partition Sunburst&lt;/a&gt;):&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-home-493by541-3e5429.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-home-450by494-3e5429.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-home-280by307-3e5429.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-home-200by219-3e5429.png&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131010/cross-section-home-200by219-3e5429.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-home-493by541-3e5429.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-home-450by494-3e5429.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-home-280by307-3e5429.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-home-200by219-3e5429.png&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131010/cross-section-home-200by219-3e5429.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -489,11 +489,11 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;p&gt;This is how the search results will look like:&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-block-700by522-546c76.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-block-450by336-546c76.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-block-280by209-546c76.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-block-200by149-546c76.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131010/cross-section-block-200by149-546c76.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-block-700by522-546c76.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-block-450by336-546c76.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-block-280by209-546c76.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-block-200by149-546c76.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131010/cross-section-block-200by149-546c76.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -501,11 +501,11 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;p&gt;Home page showing all news and available sections:&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-1-700by938-e1a578.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-1-450by603-e1a578.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-1-280by375-e1a578.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-1-200by268-e1a578.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-1-200by268-e1a578.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-page-1-700by938-e1a578.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-page-1-450by603-e1a578.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-page-1-280by375-e1a578.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-page-1-200by268-e1a578.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131010/cross-section-page-1-200by268-e1a578.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -518,11 +518,11 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-2-700by938-2a9f2f.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-2-450by603-2a9f2f.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-2-280by375-2a9f2f.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-2-200by268-2a9f2f.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-2-200by268-2a9f2f.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-page-2-700by938-2a9f2f.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-page-2-450by603-2a9f2f.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-page-2-280by375-2a9f2f.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-page-2-200by268-2a9f2f.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131010/cross-section-page-2-200by268-2a9f2f.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -530,18 +530,18 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;p&gt;Use selects “Countries” cross-section (to intersect with previously selected “Business”):&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-3-700by938-205814.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-3-450by603-205814.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-3-280by375-205814.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-3-200by268-205814.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131010/cross-section-page-3-200by268-205814.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-page-3-700by938-205814.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-page-3-450by603-205814.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-page-3-280by375-205814.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131010/cross-section-page-3-200by268-205814.jpg&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131010/cross-section-page-3-200by268-205814.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Oct 2013 13:00:00 +0100</pubDate>
-        <link>http://blog.readrz.com/readrz-blog/2013/10/10/cross-section-interface-design/</link>
-        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2013/10/10/cross-section-interface-design/</guid>
+        <link>http://blog.readrz.com/2013/10/10/cross-section-interface-design/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/2013/10/10/cross-section-interface-design/</guid>
         
         
       </item>
@@ -553,21 +553,21 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;p&gt;These layouts are very useful for highlighting the biggest items in a collection. But I decided that why neither of these layouts is suitable for displaying table of contents, which has a number of small items that are comparable in size.&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131007/bubbles-625by531-f402ec.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131007/bubbles-450by382-f402ec.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131007/bubbles-280by238-f402ec.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131007/bubbles-200by170-f402ec.png&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131007/bubbles-200by170-f402ec.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131007/bubbles-625by531-f402ec.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131007/bubbles-450by382-f402ec.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131007/bubbles-280by238-f402ec.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131007/bubbles-200by170-f402ec.png&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131007/bubbles-200by170-f402ec.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131007/heatmap-700by296-fcd6fe.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131007/heatmap-450by190-fcd6fe.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131007/heatmap-280by118-fcd6fe.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131007/heatmap-200by85-fcd6fe.png&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131007/heatmap-200by85-fcd6fe.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131007/heatmap-700by296-fcd6fe.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131007/heatmap-450by190-fcd6fe.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131007/heatmap-280by118-fcd6fe.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20131007/heatmap-200by85-fcd6fe.png&quot; /&gt;
+    &lt;img srcset=&quot;/generated/20131007/heatmap-200by85-fcd6fe.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -577,8 +577,8 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
 &lt;p&gt;If the table of contents was represented as a plain list, then the strategy is simple – look through the entire list. However, the table of contents needs to be compact. And so the only reasonable option that remains is a table. User could look through all cells in a table by looking through individual rows (or columns). Additional styling (like font size) can help in locating the most prominent entries quickly.&lt;/p&gt;
 </description>
         <pubDate>Mon, 07 Oct 2013 13:00:00 +0100</pubDate>
-        <link>http://blog.readrz.com/readrz-blog/2013/10/07/skimming-through-layouts/</link>
-        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2013/10/07/skimming-through-layouts/</guid>
+        <link>http://blog.readrz.com/2013/10/07/skimming-through-layouts/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/2013/10/07/skimming-through-layouts/</guid>
         
         
       </item>
