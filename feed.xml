@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.readrz.com/readrz-blog/</link>
     <atom:link href="http://blog.readrz.com/readrz-blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Apr 2015 11:43:27 +0100</pubDate>
-    <lastBuildDate>Sat, 04 Apr 2015 11:43:27 +0100</lastBuildDate>
+    <pubDate>Sat, 04 Apr 2015 11:54:31 +0100</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2015 11:54:31 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -54,13 +54,9 @@
         <description>&lt;p&gt;Here are preliminary results for sentiment analysis on Intel (INTC) in 2011. Each dot represents a news article. The horisontal axis shows time. The vertical axis shows news article sentiment. If you open the large picture (click on it), you will see there is some correlation between positive / negative sentiment and subsequent price changes.&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120629/intel_sentiment-927by602-6e6b7f.png&quot; media=&quot;(min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 750px) and (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120629/intel_sentiment-700by455-6e6b7f.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120629/intel_sentiment-675by438-6e6b7f.png&quot; media=&quot;(min-width: 500px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 500px) and (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120629/intel_sentiment-450by292-6e6b7f.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120629/intel_sentiment-420by273-6e6b7f.png&quot; media=&quot;(min-width: 300px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 300px) and (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120629/intel_sentiment-280by182-6e6b7f.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120629/intel_sentiment-300by195-6e6b7f.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120629/intel_sentiment-200by130-6e6b7f.png&quot; /&gt;
     &lt;img srcset=&quot;/readrz-blog/generated/20120629/intel_sentiment-200by130-6e6b7f.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
@@ -158,13 +154,9 @@ Daniel Redcliffe’s opinions about footballers plus another story
 about the romance of a famous footballer:&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-994by666-34a1e4.png&quot; media=&quot;(min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 750px) and (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-700by469-34a1e4.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-675by452-34a1e4.png&quot; media=&quot;(min-width: 500px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 500px) and (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-450by302-34a1e4.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-420by281-34a1e4.png&quot; media=&quot;(min-width: 300px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 300px) and (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-280by188-34a1e4.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-300by201-34a1e4.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_football-200by134-34a1e4.png&quot; /&gt;
     &lt;img srcset=&quot;/readrz-blog/generated/20120403/search_football-200by134-34a1e4.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
@@ -175,13 +167,9 @@ about the romance of a famous footballer:&lt;/p&gt;
 &lt;p&gt;Search for “elections” within the World section:&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-599by632-2106e9.png&quot; media=&quot;(min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 750px) and (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-599by632-2106e9.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-599by632-2106e9.png&quot; media=&quot;(min-width: 500px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 500px) and (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-450by475-2106e9.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-420by443-2106e9.png&quot; media=&quot;(min-width: 300px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 300px) and (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-280by295-2106e9.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-300by317-2106e9.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_elections-200by211-2106e9.png&quot; /&gt;
     &lt;img srcset=&quot;/readrz-blog/generated/20120403/search_elections-200by211-2106e9.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
@@ -191,13 +179,9 @@ about the romance of a famous footballer:&lt;/p&gt;
 &lt;p&gt;Search for “hedge fund” within the Fin Blogs section:&lt;/p&gt;
 
 &lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-599by631-879cf1.png&quot; media=&quot;(min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 750px) and (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-599by631-879cf1.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-599by631-879cf1.png&quot; media=&quot;(min-width: 500px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 500px) and (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-450by474-879cf1.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-420by442-879cf1.png&quot; media=&quot;(min-width: 300px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 300px) and (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-280by295-879cf1.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-300by316-879cf1.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot; /&gt;
     &lt;source srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-200by211-879cf1.png&quot; /&gt;
     &lt;img srcset=&quot;/readrz-blog/generated/20120403/search_hedge_fund-200by211-879cf1.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
   &lt;/picture&gt;
