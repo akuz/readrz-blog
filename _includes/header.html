@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="{{ site.baseurl }}/">
-        {{ site.title }}
+        <i class="fa fa-server"></i> {{ site.title }}
       </a>
     </div>
 
@@ -26,6 +26,8 @@
             {% endif %}
           {% endif %}
         {% endfor %}
+
+        <li><a href="{{ site.url_readrz }}"><i class="fa fa-external-link-square"></i> Readrz.com</a></li>
 
       </ul>
     </div>

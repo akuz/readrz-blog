@@ -30,19 +30,19 @@ layout: default
 <nav>
   <ul class="pager">
     {% if paginator.next_page %}
-      <li class="previous"><a href="{{ site.baseurl }}/page{{paginator.next_page}}"><span aria-hidden="true">&larr; Older</span></a></li>
+      <li class="previous"><a href="{{ site.baseurl }}/page{{paginator.next_page}}"><span aria-hidden="true"><i class="fa fa-angle-double-left"></i> Older</span></a></li>
     {% else %}
-      <li class="previous disabled"><span aria-hidden="true">&larr; Older</span></li>
+      <li class="previous disabled"><span aria-hidden="true"><i class="fa fa-angle-double-left"></i> Older</span></li>
     {% endif %}
 
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
-        <li class="next"><a href="{{ site.baseurl }}/"><span aria-hidden="true">Newer &rarr;</span></a></li>
+        <li class="next"><a href="{{ site.baseurl }}/"><span aria-hidden="true">Newer <i class="fa fa-angle-double-right"></i></span></a></li>
       {% else %}
-        <li class="next"><a href="{{ site.baseurl }}/page{{paginator.previous_page}}"><span aria-hidden="true">Newer &rarr;</span></a></li>
+        <li class="next"><a href="{{ site.baseurl }}/page{{paginator.previous_page}}"><span aria-hidden="true">Newer <i class="fa fa-angle-double-right"></i></span></a></li>
       {% endif %}
     {% else %}
-      <li class="next disabled"><span aria-hidden="true">Newer &rarr;</span></li>
+      <li class="next disabled"><span aria-hidden="true">Newer <i class="fa fa-angle-double-right"></i></span></li>
     {% endif %}
   </ul>
 </nav>
