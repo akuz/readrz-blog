@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Readrz Blog</title>
-  <meta name="description" content="This is the Readrz.com development blog. Feel free to get in touch is you want to discuss anything.
-">
+  <title>Sentiment vs Price: Intel 2011</title>
+  <meta name="description" content="Here are preliminary results for sentiment analysis on Intel (INTC) in 2011. Each dot represents a news article. The horisontal axis shows time. The vertical...">
 
-  <link rel="canonical" href="http://blog.readrz.com/readrz-blog/">
+  <link rel="canonical" href="http://blog.readrz.com/readrz-blog/2012/06/29/sentiment-vs-price-intel-2011/">
   <link rel="alternate" type="application/rss+xml" title="Readrz Blog" href="http://blog.readrz.com/readrz-blogfeed.xml" />
 
   <link rel="stylesheet" href="/readrz-blog/css/main.css">
@@ -42,7 +41,7 @@
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="nav navbar-nav">
 
-        <li class=" active"><a href="/readrz-blog/">Home</a></li>
+        <li class=""><a href="/readrz-blog/">Home</a></li>
 
         
         
@@ -73,62 +72,13 @@
 
 
     <div class="container">
-      <div class="page-header">
-  <h1>Home</h1>
-</div>
+      <article>
 
+  <div class="page-header">
+    <h1>Sentiment vs Price: Intel 2011<br /><small>Jun 29, 2012</small></h1>
+  </div>
 
-<div style="margin-bottom: 5em">
-  <h2>
-    <a href="/readrz-blog/2013/10/10/the-problem-with-the-news/">The Problem with the News</a> <br />
-    <small>Oct 10, 2013</small>
-  </h2>
-
-  
-    
-
-  
-
-</div>
-
-<div style="margin-bottom: 5em">
-  <h2>
-    <a href="/readrz-blog/2012/10/24/todays-optimisations/">Today's Optimisations</a> <br />
-    <small>Oct 24, 2012</small>
-  </h2>
-
-  
-    <p>Mid-morning update on today’s optimizations:</p>
-
-<ul>
-  <li>Gzip compression for all interaction with server
-    <ul>
-      <li>Bandwidth reduction of 75%</li>
-      <li>Overall summary size down to 150Kb from 700Kb</li>
-      <li>Hence, speed of getting a response from server up 4 times</li>
-    </ul>
-  </li>
-  <li>Precalculation of search section combinations
-    <ul>
-      <li>Various section combinations results are precalculated (kept alive)</li>
-      <li>This applies to different time periods (selected at the top)</li>
-      <li>Summaries should on average now load in 2 seconds</li>
-    </ul>
-  </li>
-</ul>
-
-  
-
-</div>
-
-<div style="margin-bottom: 5em">
-  <h2>
-    <a href="/readrz-blog/2012/06/29/sentiment-vs-price-intel-2011/">Sentiment vs Price: Intel 2011</a> <br />
-    <small>Jun 29, 2012</small>
-  </h2>
-
-  
-    <p>Here are preliminary results for sentiment analysis on Intel (INTC) in 2011. Each dot represents a news article. The horisontal axis shows time. The vertical axis shows news article sentiment. If you open the large picture (click on it), you will see there is some correlation between positive / negative sentiment and subsequent price changes.</p>
+  <p>Here are preliminary results for sentiment analysis on Intel (INTC) in 2011. Each dot represents a news article. The horisontal axis shows time. The vertical axis shows news article sentiment. If you open the large picture (click on it), you will see there is some correlation between positive / negative sentiment and subsequent price changes.</p>
 
 <picture>
     <source srcset="/readrz-blog/generated/20120629/intel_sentiment-927by602-6e6b7f.png" media="(min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 750px) and (min-resolution: 144dpi)" />
@@ -142,67 +92,8 @@
     <img srcset="/readrz-blog/generated/20120629/intel_sentiment-200by130-6e6b7f.png" class="blog-full" itemprop="image" />
   </picture>
 
-  
 
-</div>
-
-<div style="margin-bottom: 5em">
-  <h2>
-    <a href="/readrz-blog/2012/06/28/towards-sentiment-analysis/">Towards Sentiment Analysis</a> <br />
-    <small>Jun 28, 2012</small>
-  </h2>
-
-  
-    <p>I am beginning a new foray deeper into computational linguistics in the area of sentiment analysis. In this post I want to outline the main goals and the reasons behind them. Later I am planning to post updates on the progress.</p>
-
-<p><strong>Exploratory Search.</strong> We have been working for some time on exploratory search at Readrz. The goal was to allow people to explore a collection of texts. Overall, this is a very big topic. The texts can be explored along semantical dimensions, and along the time dimension if texts are timestamped. Semantical dimensions can be predefined categories, tag clouds, search queries, or more vaguely defined topics (more on this in next paragraph). When semantical dimensions are specified manually as categories/tags and then associated with documents by people working with them, exploratory search becomes a relatively easy task. We can implement filtering by the defined categories and by time. We can let people see related categories by inferring them from associations of documents with multiple categories. We can also easily compute the “activity” in different categories over time and present graphs to the users, and let them navigate through time. This have been implemented in many online systems that allow tagging documents, photos, etc.</p>
-
-
-    <p>
-      <a href="/readrz-blog/2012/06/28/towards-sentiment-analysis/">
-        Read full article <i class="fa fa-angle-double-right"></i>
-      </a>
-    </p>
-  
-
-</div>
-
-<div style="margin-bottom: 5em">
-  <h2>
-    <a href="/readrz-blog/2012/05/01/exploratory-search-lessons/">Exploratory Search: Lessons</a> <br />
-    <small>May 1, 2012</small>
-  </h2>
-
-  
-    <p>Several lessons learned from implementing exploratory search at Readrz (so far):</p>
-
-<ul>
-  <li>There is a need from a wide audience for exploratory tools</li>
-  <li>Starting point of exploration is important, and there can be two entry points:
-    <ul>
-      <li>Top-down: narrowing down the content based on suggested sections</li>
-      <li>Bottom-up: search for key words, and then having options to extend/shift results</li>
-    </ul>
-  </li>
-  <li>Search: users are not interested in seeing broad categories at the top of search results because they can bring a lot of “related” results which do not correspond to search query exactly. Instead they want to see the exact search results first, and only then some additional options to extend/shift the results.</li>
-</ul>
-
-  
-
-</div>
-
-
-<nav>
-  <ul class="pager">
-    
-      <li class="previous"><a href="/readrz-blog/page2"><span aria-hidden="true">&larr; Older</span></a></li>
-    
-
-    
-      <li class="next disabled"><span aria-hidden="true">Newer &rarr;</span></li>
-    
-  </ul>
-</nav>
+</article>
 
 
     </div>
