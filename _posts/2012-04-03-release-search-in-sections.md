@@ -15,14 +15,15 @@ about the romance of a famous footballer:
 
 {% picture 20120403/search_football.png %}
 
-<img src="{{ "/img/20120403/search_football-300x201.png" | prepend: site.baseurl }}">
-
+<br />
 <!--more-->
 
 Search for “elections” within the World section:
 
-<img src="{{ "/img/20120403/search_elections-284x300.png" | prepend: site.baseurl }}">
+{% picture 20120403/search_elections.png %}
+
+<br />
 
 Search for “hedge fund” within the Fin Blogs section:
 
-<img src="{{ "/img/20120403/search_hedge_fund-284x300.png" | prepend: site.baseurl }}">
+{% picture 20120403/search_hedge_fund.png %}
