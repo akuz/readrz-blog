@@ -33,7 +33,7 @@ picture:
   presets:
     # Full width pictures
     default:
-      ppi: [1, 1.5]
+      ppi: [1]
       attr:
         class: blog-full
         itemprop: image
