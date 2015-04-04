@@ -86,6 +86,61 @@
 
 <div style="margin-bottom: 5em">
   <h2>
+    <a href="/readrz-blog/2015/04/04/suspending-readrz-services/">Suspending Readrz Services</a> <br />
+    <small>Apr 4, 2015</small>
+  </h2>
+
+  
+    <p>I am suspending all services behind the <a href="http://www.readrz.com">Readrz.com</a> infrastructure today:</p>
+
+<ul>
+  <li>Feeds scanning service</li>
+  <li>Duplicate finder service</li>
+  <li>Search indexer service</li>
+  <li>Image scanner service</li>
+  <li>Summarizer service</li>
+  <li>Mongo database</li>
+  <li>Web site</li>
+</ul>
+
+<p>All the code (apart from AWS connection details) is released here: <a href="https://github.com/akuz/readrz-public"><i class="fa fa-github"></i> akuz/readrz-public</a></p>
+
+<p>There is a high chance that I can bring the infrastructure up again, if there is interest.
+Hopefully, one day I can also release the exciting innovative JavaScript menus as standalone components.
+I am keeping the database of all the news scanned between Jan, 2011 - Mar, 2015.</p>
+
+<p>For now, I’ve decided to redirect $150 it costs to run it monthly to another project.</p>
+
+<p><br /></p>
+
+<h4 id="good-bye-screenshots">Good Bye Screenshots</h4>
+
+<p>Here are a few screenshots I’ve taken just to remember how it looked like at the last iteration.</p>
+
+<p>Front page (celebrating the Iran deal at the top news item):</p>
+
+<picture>
+    <source srcset="/readrz-blog/generated/20150404/shot1-700by642-2b2b22.png" media="(min-width: 750px)" />
+    <source srcset="/readrz-blog/generated/20150404/shot1-450by412-2b2b22.png" media="(min-width: 500px)" />
+    <source srcset="/readrz-blog/generated/20150404/shot1-280by257-2b2b22.png" media="(min-width: 300px)" />
+    <source srcset="/readrz-blog/generated/20150404/shot1-200by183-2b2b22.png" />
+    <img srcset="/readrz-blog/generated/20150404/shot1-200by183-2b2b22.png" class="blog-full" itemprop="image" />
+  </picture>
+
+<p><br /></p>
+
+
+    <p>
+      <a href="/readrz-blog/2015/04/04/suspending-readrz-services/">
+        Read full article <i class="fa fa-angle-double-right"></i>
+      </a>
+    </p>
+  
+
+</div>
+
+<div style="margin-bottom: 5em">
+  <h2>
     <a href="/readrz-blog/2013/11/10/new-user-interface-mock-up/">New User Interface Mock Up</a> <br />
     <small>Nov 10, 2013</small>
   </h2>
@@ -235,36 +290,6 @@ I think it makes it easy to go back one step back.</p>
     <img srcset="/readrz-blog/generated/20131028/top_hints-200by153-94b691.png" class="blog-full" itemprop="image" />
   </picture>
 
-
-  
-
-</div>
-
-<div style="margin-bottom: 5em">
-  <h2>
-    <a href="/readrz-blog/2013/10/24/todays-optimisations/">Today's Optimisations</a> <br />
-    <small>Oct 24, 2013</small>
-  </h2>
-
-  
-    <p>Mid-morning update on today’s optimizations:</p>
-
-<ul>
-  <li>Gzip compression for all interaction with server
-    <ul>
-      <li>Bandwidth reduction of 75%</li>
-      <li>Overall summary size down to 150Kb from 700Kb</li>
-      <li>Hence, speed of getting a response from server up 4 times</li>
-    </ul>
-  </li>
-  <li>Precalculation of search section combinations
-    <ul>
-      <li>Various section combinations results are precalculated (kept alive)</li>
-      <li>This applies to different time periods (selected at the top)</li>
-      <li>Summaries should on average now load in 2 seconds</li>
-    </ul>
-  </li>
-</ul>
 
   
 

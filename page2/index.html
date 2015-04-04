@@ -86,6 +86,36 @@
 
 <div style="margin-bottom: 5em">
   <h2>
+    <a href="/readrz-blog/2013/10/24/todays-optimisations/">Today's Optimisations</a> <br />
+    <small>Oct 24, 2013</small>
+  </h2>
+
+  
+    <p>Mid-morning update on today’s optimizations:</p>
+
+<ul>
+  <li>Gzip compression for all interaction with server
+    <ul>
+      <li>Bandwidth reduction of 75%</li>
+      <li>Overall summary size down to 150Kb from 700Kb</li>
+      <li>Hence, speed of getting a response from server up 4 times</li>
+    </ul>
+  </li>
+  <li>Precalculation of search section combinations
+    <ul>
+      <li>Various section combinations results are precalculated (kept alive)</li>
+      <li>This applies to different time periods (selected at the top)</li>
+      <li>Summaries should on average now load in 2 seconds</li>
+    </ul>
+  </li>
+</ul>
+
+  
+
+</div>
+
+<div style="margin-bottom: 5em">
+  <h2>
     <a href="/readrz-blog/2013/10/23/new-release-circle-menus/">New Release: Circle Menus</a> <br />
     <small>Oct 23, 2013</small>
   </h2>
@@ -231,53 +261,6 @@
 
 <p>If the table of contents was represented as a plain list, then the strategy is simple – look through the entire list. However, the table of contents needs to be compact. And so the only reasonable option that remains is a table. User could look through all cells in a table by looking through individual rows (or columns). Additional styling (like font size) can help in locating the most prominent entries quickly.</p>
 
-  
-
-</div>
-
-<div style="margin-bottom: 5em">
-  <h2>
-    <a href="/readrz-blog/2013/10/05/the-problem-with-the-news/">The Problem with the News</a> <br />
-    <small>Oct 5, 2013</small>
-  </h2>
-
-  
-    <p>Millions of news, blog articles, and status updates are published every day. You like to know what is going on in the news (let’s just call it news, even if it’s actually a blog post). So what are the options you have in the Internet?</p>
-
-<picture>
-    <source srcset="/readrz-blog/generated/20131005/information_overload-500by281-0c47ca.jpg" media="(min-width: 750px)" />
-    <source srcset="/readrz-blog/generated/20131005/information_overload-450by253-0c47ca.jpg" media="(min-width: 500px)" />
-    <source srcset="/readrz-blog/generated/20131005/information_overload-280by157-0c47ca.jpg" media="(min-width: 300px)" />
-    <source srcset="/readrz-blog/generated/20131005/information_overload-200by112-0c47ca.jpg" />
-    <img srcset="/readrz-blog/generated/20131005/information_overload-200by112-0c47ca.jpg" class="blog-full" itemprop="image" />
-  </picture>
-
-<p><br /></p>
-
-<h4 id="curated-media">Curated Media</h4>
-
-<p>You rely on your favourite manually curated website that selects the news for you. You may read through a few of such websites. This gives you access to content with predictably good quality. But at the same time, you relinquish your control of what information (and what opinions) get a chance to appear before your eyes. You are under a total control of your selected news source(s).</p>
-
-<h4 id="social-voting">Social Voting</h4>
-
-<p>You visit your favourite social voting site (<a href="http://www.reddit.com/">Reddit</a>, <a href="https://news.ycombinator.com/">Hacker News</a>, <a href="http://digg.com/">Digg</a>). You look through top 20 links. You read the discussions. This gives you something to feed your brain with. You expect the community to produce the top links that would be generally relevant to your area of interest. This is great, as it gives you a fine entry point to the world of information. But this is also very limited. It’s like using MTV top 20 to get to know what’s going on in the world of music.</p>
-
-<h4 id="aggregator-sites">Aggregator Sites</h4>
-
-<p>The news are grouped by how similar they are to each other, and then packed into a predefined set of standard sections. Think <a href="https://news.google.com/">Google News</a>, <a href="http://news.yahoo.com/">Yahoo News</a>, <a href="http://news360.com/">News360</a>. You can browse overall top news. You can also choose a section and browse top news within that section. Within each group of news, you can explore other articles – which provides you with an additional dose of objectivity that is lacking within the curated media and social voting sites. Already better. But is this all that can be achieved? No.</p>
-
-<h4 id="like-filter-bubble">“Like” (Filter Bubble)</h4>
-
-<p>Don’t people all have different interests? Let’s give them a chance to tell us what their interests are, and we can learn from them, and show them better quality news tailored for each one of them! Of course, we cannot ask people to actually type in their key words, people are so lazy these days. But surely people can click like or dislike button on a specific news article. We can then use sophisticated algorithms to infer the interests of a specific person, and then overlay this on top of our aggregated news feed, and make everyone happy by showing them the news they would actually like. Think <a href="http://zite.com/">Zite</a>, and the above aggregators.</p>
-
-<p>Isn’t it great? No. Here are the reasons why (and what can be done about it).</p>
-
-
-    <p>
-      <a href="/readrz-blog/2013/10/05/the-problem-with-the-news/">
-        Read full article <i class="fa fa-angle-double-right"></i>
-      </a>
-    </p>
   
 
 </div>

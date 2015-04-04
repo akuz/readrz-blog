@@ -6,9 +6,82 @@
 </description>
     <link>http://blog.readrz.com/readrz-blog/</link>
     <atom:link href="http://blog.readrz.com/readrz-blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Apr 2015 16:23:23 +0100</pubDate>
-    <lastBuildDate>Sat, 04 Apr 2015 16:23:23 +0100</lastBuildDate>
+    <pubDate>Sat, 04 Apr 2015 16:54:42 +0100</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2015 16:54:42 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Suspending Readrz Services</title>
+        <description>&lt;p&gt;I am suspending all services behind the &lt;a href=&quot;http://www.readrz.com&quot;&gt;Readrz.com&lt;/a&gt; infrastructure today:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Feeds scanning service&lt;/li&gt;
+  &lt;li&gt;Duplicate finder service&lt;/li&gt;
+  &lt;li&gt;Search indexer service&lt;/li&gt;
+  &lt;li&gt;Image scanner service&lt;/li&gt;
+  &lt;li&gt;Summarizer service&lt;/li&gt;
+  &lt;li&gt;Mongo database&lt;/li&gt;
+  &lt;li&gt;Web site&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All the code (apart from AWS connection details) is released here: &lt;a href=&quot;https://github.com/akuz/readrz-public&quot;&gt;&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt; akuz/readrz-public&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a high chance that I can bring the infrastructure up again, if there is interest.
+Hopefully, one day I can also release the exciting innovative JavaScript menus as standalone components.
+I am keeping the database of all the news scanned between Jan, 2011 - Mar, 2015.&lt;/p&gt;
+
+&lt;p&gt;For now, I’ve decided to redirect $150 it costs to run it monthly to another project.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;good-bye-screenshots&quot;&gt;Good Bye Screenshots&lt;/h4&gt;
+
+&lt;p&gt;Here are a few screenshots I’ve taken just to remember how it looked like at the last iteration.&lt;/p&gt;
+
+&lt;p&gt;Front page (celebrating the Iran deal at the top news item):&lt;/p&gt;
+
+&lt;picture&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot1-700by642-2b2b22.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot1-450by412-2b2b22.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot1-280by257-2b2b22.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot1-200by183-2b2b22.png&quot; /&gt;
+    &lt;img srcset=&quot;/readrz-blog/generated/20150404/shot1-200by183-2b2b22.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+  &lt;/picture&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Filtered showing all news in the Finance category (notice the sub-categories too):&lt;/p&gt;
+
+&lt;picture&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot2-700by656-e08d80.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot2-450by422-e08d80.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot2-280by263-e08d80.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot2-200by188-e08d80.png&quot; /&gt;
+    &lt;img srcset=&quot;/readrz-blog/generated/20150404/shot2-200by188-e08d80.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+  &lt;/picture&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Search results when searching for “Ukraine”:&lt;/p&gt;
+
+&lt;picture&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot3-700by657-f22609.png&quot; media=&quot;(min-width: 750px)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot3-450by422-f22609.png&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot3-280by263-f22609.png&quot; media=&quot;(min-width: 300px)&quot; /&gt;
+    &lt;source srcset=&quot;/readrz-blog/generated/20150404/shot3-200by188-f22609.png&quot; /&gt;
+    &lt;img srcset=&quot;/readrz-blog/generated/20150404/shot3-200by188-f22609.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
+  &lt;/picture&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Apr 2015 13:00:00 +0100</pubDate>
+        <link>http://blog.readrz.com/readrz-blog/2015/04/04/suspending-readrz-services/</link>
+        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2015/04/04/suspending-readrz-services/</guid>
+        
+        
+      </item>
     
       <item>
         <title>New User Interface Mock Up</title>
@@ -506,150 +579,6 @@ I think it makes it easy to go back one step back.&lt;/p&gt;
         <pubDate>Mon, 07 Oct 2013 13:00:00 +0100</pubDate>
         <link>http://blog.readrz.com/readrz-blog/2013/10/07/skimming-through-layouts/</link>
         <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2013/10/07/skimming-through-layouts/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Problem with the News</title>
-        <description>&lt;p&gt;Millions of news, blog articles, and status updates are published every day. You like to know what is going on in the news (let’s just call it news, even if it’s actually a blog post). So what are the options you have in the Internet?&lt;/p&gt;
-
-&lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131005/information_overload-500by281-0c47ca.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131005/information_overload-450by253-0c47ca.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131005/information_overload-280by157-0c47ca.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131005/information_overload-200by112-0c47ca.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131005/information_overload-200by112-0c47ca.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
-  &lt;/picture&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;curated-media&quot;&gt;Curated Media&lt;/h4&gt;
-
-&lt;p&gt;You rely on your favourite manually curated website that selects the news for you. You may read through a few of such websites. This gives you access to content with predictably good quality. But at the same time, you relinquish your control of what information (and what opinions) get a chance to appear before your eyes. You are under a total control of your selected news source(s).&lt;/p&gt;
-
-&lt;h4 id=&quot;social-voting&quot;&gt;Social Voting&lt;/h4&gt;
-
-&lt;p&gt;You visit your favourite social voting site (&lt;a href=&quot;http://www.reddit.com/&quot;&gt;Reddit&lt;/a&gt;, &lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;, &lt;a href=&quot;http://digg.com/&quot;&gt;Digg&lt;/a&gt;). You look through top 20 links. You read the discussions. This gives you something to feed your brain with. You expect the community to produce the top links that would be generally relevant to your area of interest. This is great, as it gives you a fine entry point to the world of information. But this is also very limited. It’s like using MTV top 20 to get to know what’s going on in the world of music.&lt;/p&gt;
-
-&lt;h4 id=&quot;aggregator-sites&quot;&gt;Aggregator Sites&lt;/h4&gt;
-
-&lt;p&gt;The news are grouped by how similar they are to each other, and then packed into a predefined set of standard sections. Think &lt;a href=&quot;https://news.google.com/&quot;&gt;Google News&lt;/a&gt;, &lt;a href=&quot;http://news.yahoo.com/&quot;&gt;Yahoo News&lt;/a&gt;, &lt;a href=&quot;http://news360.com/&quot;&gt;News360&lt;/a&gt;. You can browse overall top news. You can also choose a section and browse top news within that section. Within each group of news, you can explore other articles – which provides you with an additional dose of objectivity that is lacking within the curated media and social voting sites. Already better. But is this all that can be achieved? No.&lt;/p&gt;
-
-&lt;h4 id=&quot;like-filter-bubble&quot;&gt;“Like” (Filter Bubble)&lt;/h4&gt;
-
-&lt;p&gt;Don’t people all have different interests? Let’s give them a chance to tell us what their interests are, and we can learn from them, and show them better quality news tailored for each one of them! Of course, we cannot ask people to actually type in their key words, people are so lazy these days. But surely people can click like or dislike button on a specific news article. We can then use sophisticated algorithms to infer the interests of a specific person, and then overlay this on top of our aggregated news feed, and make everyone happy by showing them the news they would actually like. Think &lt;a href=&quot;http://zite.com/&quot;&gt;Zite&lt;/a&gt;, and the above aggregators.&lt;/p&gt;
-
-&lt;p&gt;Isn’t it great? No. Here are the reasons why (and what can be done about it).&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;By telling the system what you like, you are building your own prison. It may not be as extreme as “if I like a news article about the International Space Station, then I will see all news about it in the future.” People building recommender systems are not stupid, ok? They will infer your interests within a model that has substantially fewer degrees of freedom than the number of things you can like or dislike. To translate this into a normal language, they will build a profile of you, a virtual model of you, which has only a few parameters. These parameters can be how interested are you, from 0.0 to 1.0, in each of the 5 top sections. Additionally, within each of these sections, a model of you would have additional 5 parameters between 0.0 and 1.0 showing how much you are interested in the subsections. This gives a total of 5 x 5 = 25 parameters of virtual you (for example).&lt;/p&gt;
-
-&lt;p&gt;These parameters will later serve as hints to the system which news to show you. The system might have another card up its sleeve. It may sometimes show you the news that you are surely haven’t shown interest in before. Just to check if real you hasn’t deviated too much from the virtual you. But this might be just too slow (see additional drawbacks below).&lt;/p&gt;
-
-&lt;p&gt;Empowered with this algorithm, the system takes control of what you are allowed and not allowed to see, while you dwelve in a blissful state of happiness of knowing only about the things you actually like to know. Just like in &lt;a href=&quot;http://en.wikipedia.org/wiki/The_Matrix&quot;&gt;The Matrix&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This is called a bubble, in which you now begin to live. Please see a classy presentation about this at &lt;a href=&quot;http://dontbubble.us/&quot;&gt;dontbubble.us&lt;/a&gt; (a.k.a. &lt;a href=&quot;https://duckduckgo.com/&quot;&gt;DuckDuckGo&lt;/a&gt; vs. &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;Here are some additional drawbacks:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I may be interested in tech and business at work and entertainment and sports at home – so do I create two different profiles for that? Can I?&lt;/li&gt;
-  &lt;li&gt;I may start doing an MBA – so how long will it take for the system to adjust to my new areas of interest? Then I decide it’s not for me, please can I adjust that back?&lt;/li&gt;
-  &lt;li&gt;What does the system actually know about me? Can I change that?&lt;/li&gt;
-  &lt;li&gt;Can I see the world through another person’s eyes? Privacy?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This kind of filtering can actually work well and be very useful for some people. It can make people happier, albeit at the expense of objectivity. It’s just not something I choose for myself. And it’s a question for you, which pill do you choose – &lt;a href=&quot;http://en.wikipedia.org/wiki/Red_pill_and_blue_pill&quot;&gt;red or blue&lt;/a&gt;?&lt;/p&gt;
-
-&lt;p&gt;I believe recommender systems will serve an important role. But it will be just one of different ways to look at the information. Let me present you with a simple idea. It is generally considered to be an area of &lt;a href=&quot;http://en.wikipedia.org/wiki/Exploratory_search&quot;&gt;exploratory search&lt;/a&gt;, but I was unable to find good implementations of any of the ideas.&lt;/p&gt;
-
-&lt;h4 id=&quot;adaptive-browsing&quot;&gt;Adaptive Browsing&lt;/h4&gt;
-
-&lt;p&gt;Imagine you a looking at a virtual cloud of 1,000,000 news articles. You want to know what’s out there (and also you don’t want to “take a blue pill”, and let someone decide what you should see).&lt;/p&gt;
-
-&lt;p&gt;You see the following options:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A search box&lt;/li&gt;
-  &lt;li&gt;Top search queries you can use&lt;/li&gt;
-  &lt;li&gt;Top sections, and top news within each&lt;/li&gt;
-  &lt;li&gt;Top ways to sort the news by&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The  sorting mechanism is important because it lets you look at the same set of news though a different dimension. For example, you could sort the financial news by country to get a picture of the economy, and sort them by the company to see how it affects the individual players.&lt;/p&gt;
-
-&lt;p&gt;Let’s now say you review the top news you see, and then:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Enter (or select) a search query, or&lt;/li&gt;
-  &lt;li&gt;Select one of the sections that are suggested, or&lt;/li&gt;
-  &lt;li&gt;Select one of the items you sorted by (a country for example)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;By doing this, you effectively reduce the number of articles you could be interested in from 1,000,000 to a significantly smaller number, say 1,000.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Here comes the key point.&lt;/p&gt;
-
-&lt;p&gt;The system then takes these 1,000 articles and presents the results in &lt;strong&gt;exactly the same&lt;/strong&gt; way as before, but customized for the remaining 1,000 news you might be interested in, and you see:&lt;/p&gt;
-
-&lt;p&gt;A search box
-Top search &lt;strong&gt;sub&lt;/strong&gt;queries you can use
-Top &lt;strong&gt;sub&lt;/strong&gt;sections, and top news within each
-Top ways to sort these 1,000 news by&lt;/p&gt;
-
-&lt;p&gt;You can repeat this step until you reach that one key article, and then start over, or make a parallel shift to another section, and then clear some of the search parameters to look at a wider scope.&lt;/p&gt;
-
-&lt;p&gt;The beauty of this approach is that the &lt;strong&gt;amount of information reduces exponentially with each choice you make&lt;/strong&gt;. That means that you could reach any single article of 1,000,000 in just a few steps. And I mean a few – more like 5 steps than like 50.&lt;/p&gt;
-
-&lt;p&gt;This makes it very easy for anyone to reach any specific information within a very short time frame. There is no need to learn user profiles. Users can express their interests here and now, and get a reasonable overview of the information matching their interests at this very moment.&lt;/p&gt;
-
-&lt;p&gt;The same user interface at any level makes it easy for you to see the information in the same format, although with different search and sorting parameters.&lt;/p&gt;
-
-&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
-
-&lt;p&gt;This is what is being built at &lt;a href=&quot;http://www.readrz.com&quot;&gt;Readrz.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;picture&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131005/information_surfing-300by206-a6077c.jpg&quot; media=&quot;(min-width: 750px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131005/information_surfing-300by206-a6077c.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131005/information_surfing-280by192-a6077c.jpg&quot; media=&quot;(min-width: 300px)&quot; /&gt;
-    &lt;source srcset=&quot;/readrz-blog/generated/20131005/information_surfing-200by137-a6077c.jpg&quot; /&gt;
-    &lt;img srcset=&quot;/readrz-blog/generated/20131005/information_surfing-200by137-a6077c.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; /&gt;
-  &lt;/picture&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;A lot of things are still being improved: the user interface, the coverage of news sources, performance of the computations, sections, and ways to sort by. But it is already available for you, as it is now. If you feel this work is important, please visit &lt;a href=&quot;http://www.readrz.com&quot;&gt;Readrz.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;bonus&quot;&gt;Bonus&lt;/h4&gt;
-
-&lt;p&gt;How to reproduce the Economist:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sort all news by Countries&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;How to reproduce the Business section of FT:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Select the Business section&lt;/li&gt;
-  &lt;li&gt;Sort the news by Companies&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;How to reproduce the Economy section of WSJ:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Select the Finance section&lt;/li&gt;
-  &lt;li&gt;Sort the news by Countries&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Do it at &lt;a href=&quot;http://www.readrz.com&quot;&gt;Readrz.com&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 05 Oct 2013 13:00:00 +0100</pubDate>
-        <link>http://blog.readrz.com/readrz-blog/2013/10/05/the-problem-with-the-news/</link>
-        <guid isPermaLink="true">http://blog.readrz.com/readrz-blog/2013/10/05/the-problem-with-the-news/</guid>
         
         
       </item>
