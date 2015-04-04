@@ -13,6 +13,8 @@ Search for “football” within the Celebrities section brings up
 Daniel Redcliffe’s opinions about footballers plus another story 
 about the romance of a famous footballer:
 
+{% picture 20120403/search_football.png %}
+
 <img src="{{ "/img/20120403/search_football-300x201.png" | prepend: site.baseurl }}">
 
 <!--more-->
